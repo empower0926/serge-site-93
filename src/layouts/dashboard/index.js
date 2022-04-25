@@ -21,9 +21,9 @@ const MainStyle = styled('main', {
   paddingTop: HEADER.MOBILE_HEIGHT + 24,
   paddingBottom: HEADER.MOBILE_HEIGHT + 24,
   [theme.breakpoints.up('lg')]: {
-    paddingLeft: 16,
-    paddingRight: 16,
-    paddingTop: HEADER.DASHBOARD_DESKTOP_HEIGHT + 24,
+    paddingLeft: 0,
+    paddingRight: 0,
+    paddingTop: HEADER.DASHBOARD_DESKTOP_HEIGHT,
     paddingBottom: HEADER.DASHBOARD_DESKTOP_HEIGHT + 24,
     width: `calc(100% - ${NAVBAR.DASHBOARD_WIDTH}px)`,
     transition: theme.transitions.create('margin-left', {

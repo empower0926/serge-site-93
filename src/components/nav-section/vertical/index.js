@@ -39,7 +39,7 @@ export default function NavSectionVertical({ navConfig, isCollapse = false, ...o
               }),
             }}
           >
-            {group.subheader}
+            {/* {group.subheader} */}
           </ListSubheaderStyle>
 
           {group.items.map((list) => (

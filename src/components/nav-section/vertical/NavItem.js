@@ -6,6 +6,7 @@ import { Box, Link, ListItemText, Typography, Tooltip } from '@mui/material';
 import Iconify from '../../Iconify';
 import { ListItemStyle as ListItem, ListItemTextStyle, ListItemIconStyle } from './style';
 import { isExternalLink } from '..';
+import useLocales from '../../../hooks/useLocales';
 
 // ----------------------------------------------------------------------
 
@@ -30,46 +31,19 @@ NavItemRoot.propTypes = {
     roles: PropTypes.arrayOf(PropTypes.string),
   }),
 };
-
+// ========================fix here===================================================
 export function NavItemRoot({ item, isCollapse, open = false, active, onOpen }) {
   const { title, path, icon, info, children, disabled, caption, roles } = item;
-
+  const { translate } = useLocales();
   const renderContent = (
     <>
-      {icon && <ListItemIconStyle>{icon}</ListItemIconStyle>}
       <ListItemTextStyle
         disableTypography
-        primary={title}
-        secondary={
-          <Tooltip title={caption || ''} arrow>
-            <Typography
-              noWrap
-              variant="caption"
-              component="div"
-              sx={{ textTransform: 'initial', color: 'text.secondary' }}
-            >
-              {caption}
-            </Typography>
-          </Tooltip>
-        }
+        primary={translate(title)}
         isCollapse={isCollapse}
       />
-      {!isCollapse && (
-        <>
-          {info && info}
-          {children && <ArrowIcon open={open} />}
-        </>
-      )}
     </>
   );
-
-  if (children) {
-    return (
-      <ListItem onClick={onOpen} activeRoot={active} disabled={disabled} roles={roles}>
-        {renderContent}
-      </ListItem>
-    );
-  }
 
   return isExternalLink(path) ? (
     <ListItem component={Link} href={path} target="_blank" rel="noopener" disabled={disabled} roles={roles}>
