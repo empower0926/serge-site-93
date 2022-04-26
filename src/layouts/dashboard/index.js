@@ -24,7 +24,7 @@ const MainStyle = styled('main', {
     paddingLeft: 0,
     paddingRight: 0,
     paddingTop: HEADER.DASHBOARD_DESKTOP_HEIGHT,
-    paddingBottom: HEADER.DASHBOARD_DESKTOP_HEIGHT + 24,
+    paddingBottom: 0,
     width: `calc(100% - ${NAVBAR.DASHBOARD_WIDTH}px)`,
     transition: theme.transitions.create('margin-left', {
       duration: theme.transitions.duration.shorter,

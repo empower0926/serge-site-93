@@ -13,9 +13,9 @@ export default function App() {
   return (
     <MotionLazyContainer>
       <ThemeProvider>
-          <ProgressBarStyle />
-          <ScrollToTop />
-          <Router />
+        <ProgressBarStyle />
+        <ScrollToTop />
+        <Router />
       </ThemeProvider>
     </MotionLazyContainer>
   );
