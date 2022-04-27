@@ -7,7 +7,7 @@ import useLocales from '../../hooks/useLocales';
 const settings = {
   infinite: true,
   speed: 1000,
-  //   autoplay: true,
+    autoplay: true,
   slidesToShow: 4,
   slidesToScroll: 4,
 };
@@ -27,7 +27,7 @@ const SliderStyle = styled(Slider)({
   },
   //   '& img:hover': {
   //   },
-   '& Button' : {
+  '& Button': {
     visibility: 'hidden',
     transition: 'all ease 300ms',
   },
@@ -47,19 +47,19 @@ const StackStyle = styled(Stack)({
   top: '50%',
   transform: 'translate(-50%, -50%)',
 });
-const ButtonStyle =  styled(Button)({
-    borderColor: '#000 !important',
-    '& a':{
-        color: '#000'
+const ButtonStyle = styled(Button)({
+  borderColor: '#000 !important',
+  '& a': {
+    color: '#000',
+  },
+  fontWeight: 'lighter !important',
+  '&:hover': {
+    '& a': {
+      color: '#fff',
     },
-    fontWeight: 'lighter !important',
-    '&:hover':{
-        '& a':{
-            color: '#fff'
-        },
-        background: '#000 !important'
-    }
-})
+    background: '#000 !important',
+  },
+});
 export default function CollectionSlide(props) {
   const { translate } = useLocales();
   return (
@@ -76,10 +76,10 @@ export default function CollectionSlide(props) {
               <Img src={src} alt="img1" />
               <StackStyle spacing={2}>
                 <ButtonStyle variant="outlined">
-                    <a href='https://backoffice.ollorun.com/login/client'>{translate('CUSTOMER')}</a>
+                  <a href="https://backoffice.ollorun.com/login/client">{translate('CUSTOMER')}</a>
                 </ButtonStyle>
                 <ButtonStyle variant="outlined">
-                    <a href='https://backoffice.ollorun.com/login/client'>{translate('ADVISOR_DST')}</a>
+                  <a href="https://backoffice.ollorun.com/login/client">{translate('ADVISOR_DST')}</a>
                 </ButtonStyle>
               </StackStyle>
             </Box>

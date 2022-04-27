@@ -4,7 +4,6 @@ const navConfig = [
   // GENERAL
   // ----------------------------------------------------------------------
   {
-    subheader: '',
     items: [
       { title: 'HOME', path: '/home'},
       { title: 'THE_CBD_MAG', path: '/mag'},

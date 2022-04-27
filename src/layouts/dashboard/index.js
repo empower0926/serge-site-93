@@ -4,13 +4,13 @@ import { Outlet } from 'react-router-dom';
 import { styled } from '@mui/material/styles';
 import { Box } from '@mui/material';
 // hooks
-import useResponsive from '../../hooks/useResponsive';
 import useCollapseDrawer from '../../hooks/useCollapseDrawer';
 // config
 import { HEADER, NAVBAR } from '../../config';
 //
 import DashboardHeader from './header';
 import NavbarVertical from './navbar/NavbarVertical';
+import Footer from './footer';
 
 // ----------------------------------------------------------------------
 
@@ -19,7 +19,6 @@ const MainStyle = styled('main', {
 })(({ collapseClick, theme }) => ({
   flexGrow: 1,
   paddingTop: HEADER.MOBILE_HEIGHT + 24,
-  paddingBottom: HEADER.MOBILE_HEIGHT + 24,
   [theme.breakpoints.up('lg')]: {
     paddingLeft: 0,
     paddingRight: 0,
@@ -55,6 +54,7 @@ export default function DashboardLayout() {
 
       <MainStyle collapseClick={collapseClick}>
         <Outlet />
+        <Footer />
       </MainStyle>
     </Box>
   );

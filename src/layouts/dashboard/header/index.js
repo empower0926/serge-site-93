@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 // @mui
 import { styled } from '@mui/material/styles';
-import { Box, Stack, AppBar, Toolbar, Button } from '@mui/material';
+import { Box, Stack, AppBar, Toolbar, Button, Link } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
 import useLocales from '../../../hooks/useLocales';
 // hooks
@@ -31,23 +31,17 @@ const RootStyle = styled(AppBar, {
   transition: theme.transitions.create(['width', 'height'], {
     duration: theme.transitions.duration.shorter,
   }),
-  // [theme.breakpoints.up('lg')]: {
-  //   height: HEADER.DASHBOARD_DESKTOP_HEIGHT,
-  //   width: '100%',
-  //   ...(isCollapse && {
-  //     width: `calc(100% - ${NAVBAR.DASHBOARD_COLLAPSE_WIDTH}px)`,
-  //   }),
-  //   ...(isOffset && {
-  //     height: HEADER.DASHBOARD_DESKTOP_OFFSET_HEIGHT,
-  //   }),
-  //   ...(verticalLayout && {
-  //     width: '100%',
-  //     height: HEADER.DASHBOARD_DESKTOP_OFFSET_HEIGHT,
-  //     backgroundColor: theme.palette.background.default,
-  //   }),
-  // },
 }));
-
+const LinkStyle = styled(Link)({
+  fontWeight: 'lighter',
+  '&:hover':{
+    color: '#2BB972'
+  },
+  color: 'white', 
+  fontSize: '16px',
+  paddingLeft: '24px',
+  transition: 'all ease 400ms'
+});
 // ----------------------------------------------------------------------
 
 DashboardHeader.propTypes = {
@@ -62,15 +56,14 @@ export default function DashboardHeader({ onOpenSidebar, isCollapse = false, ver
   const isDesktop = useResponsive('up', 'lg');
   const topBarContent = [
     {
-      path: "https://backoffice.ollorun.com/login/client",
-      name: "CUSTOMER",
+      path: 'https://backoffice.ollorun.com/login/client',
+      name: 'CUSTOMER',
     },
     {
-      path: "https://backoffice.ollorun.com/",
-      name: "ADVISOR_DST",
-    }
+      path: 'https://backoffice.ollorun.com/',
+      name: 'ADVISOR_DST',
+    },
   ];
-
   return (
     <RootStyle isCollapse={isCollapse} isOffset={isOffset} verticalLayout={verticalLayout}>
       <Toolbar
@@ -78,7 +71,7 @@ export default function DashboardHeader({ onOpenSidebar, isCollapse = false, ver
           minHeight: '100% !important',
           px: { lg: 5 },
           display: 'flex',
-          justifyContent: 'space-between'
+          justifyContent: 'space-between',
         }}
       >
         {isDesktop && verticalLayout && <Logo sx={{ mr: 2.5 }} />}
@@ -87,25 +80,23 @@ export default function DashboardHeader({ onOpenSidebar, isCollapse = false, ver
             <Iconify icon="eva:menu-2-fill" />
           </IconButtonAnimate>
         </Box>
-        <Box sx={{
-          position: 'fixed',
-          left: '50%',
-          transform: 'translateX(-50%)'
-        }}>
+        <Box
+          sx={{
+            position: 'fixed',
+            left: '50%',
+            transform: 'translateX(-50%)',
+          }}
+        >
           <IconButtonAnimate>
             <Logo />
           </IconButtonAnimate>
         </Box>
         <Stack direction="row" alignItems="center" spacing={{ xs: 0.5, sm: 1.5 }}>
-          <Box sx={{ flexGrow: 1, display: {xs:'none',sm:'flex'} }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', sm: 'flex' } }}>
             {topBarContent.map((data) => (
-              <IconButtonAnimate
-                key={data.name}
-                href={data.path}
-                sx={{ color: 'white', fontSize: '16px'}}
-              >
+              <LinkStyle key={data.name} href={data.path}>
                 {translate(data.name)}
-              </IconButtonAnimate>
+              </LinkStyle>
             ))}
           </Box>
           <LanguagePopover />

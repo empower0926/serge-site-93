@@ -19,7 +19,8 @@ const en = {
   FOOD:'FOOD',
   OIL:'OIL',
   FLOWER:'FLOWER',
-  FOOTER_TEXT: '© Ollorun 2022 All rights reserved <br>OLLORUN Network Limited (Company Number 12660658) is owned by SAPIAN GROUP/FLASH GROUP.'
+  FOOTER_TEXT1: `© Ollorun 2022 All rights reserved`,
+  FOOTER_TEXT2: `OLLORUN Network Limited (Company Number 12660658) is owned by SAPIAN GROUP/FLASH GROUP.`
 }
 
 export default en;
