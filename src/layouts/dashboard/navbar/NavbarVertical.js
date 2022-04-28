@@ -2,15 +2,11 @@ import PropTypes from 'prop-types';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 // @mui
-import { styled, useTheme } from '@mui/material/styles';
-import { Box, Stack, Drawer } from '@mui/material';
+import { styled } from '@mui/material/styles';
+import { Stack, Drawer, Link, Divider } from '@mui/material';
 // hooks
 import useLocales from '../../../hooks/useLocales';
-import useResponsive from '../../../hooks/useResponsive';
-import useCollapseDrawer from '../../../hooks/useCollapseDrawer';
 // utils
-import cssStyles from '../../../utils/cssStyles';
-// config
 import { NAVBAR } from '../../../config';
 // components
 import Logo from '../../../components/Logo';
@@ -18,7 +14,6 @@ import Scrollbar from '../../../components/Scrollbar';
 import { NavSectionVertical } from '../../../components/nav-section';
 //
 import navConfig from './NavConfig';
-import CollapseButton from './CollapseButton';
 
 // ----------------------------------------------------------------------
 
@@ -37,16 +32,19 @@ NavbarVertical.propTypes = {
   isOpenSidebar: PropTypes.bool,
   onCloseSidebar: PropTypes.func,
 };
-
 export default function NavbarVertical({ isOpenSidebar, onCloseSidebar }) {
-  const theme = useTheme();
-  const { transition } = useLocales();
+  const { translate } = useLocales();
   const { pathname } = useLocation();
 
-  const isDesktop = useResponsive('up', 'lg');
-
-  const { isCollapse, collapseClick, collapseHover, onToggleCollapse, onHoverEnter, onHoverLeave } =
-    useCollapseDrawer();
+  const LinkStyle = styled(Link)({
+    fontWeight: 'lighter',
+    '&:hover': {
+      color: '#2BB972',
+    },
+    color: '#95A1AA',
+    fontSize: '13px',
+    transition: 'all ease 400ms',
+  });
 
   useEffect(() => {
     if (isOpenSidebar) {
@@ -54,7 +52,6 @@ export default function NavbarVertical({ isOpenSidebar, onCloseSidebar }) {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pathname]);
-
   const renderContent = (
     <Scrollbar
       sx={{
@@ -69,23 +66,26 @@ export default function NavbarVertical({ isOpenSidebar, onCloseSidebar }) {
           pb: 2,
           px: 2.5,
           flexShrink: 0,
-          ...(isCollapse && { alignItems: 'center' }),
         }}
       >
         <Stack direction="row" alignItems="center" justifyContent="center">
           <Logo />
         </Stack>
       </Stack>
-      <NavSectionVertical navConfig={navConfig} isCollapse={isCollapse} />
+      <NavSectionVertical navConfig={navConfig} />
+      <Divider />
+      <Stack direction='row' spacing={3} justifyContent="center" sx={{mt: '24px'}}>
+        <LinkStyle href="https://backoffice.ollorun.com/login/client">{translate('CUSTOMER')}</LinkStyle>
+        <LinkStyle href="https://backoffice.ollorun.com/">{translate('ADVISOR_DST')}</LinkStyle>
+      </Stack>
     </Scrollbar>
   );
 
   return (
-    <RootStyle
-    >
-        <Drawer open={isOpenSidebar} onClose={onCloseSidebar} PaperProps={{ sx: { width: NAVBAR.DASHBOARD_WIDTH } }}>
-          {renderContent}
-        </Drawer>
+    <RootStyle>
+      <Drawer open={isOpenSidebar} onClose={onCloseSidebar} PaperProps={{ sx: { width: NAVBAR.DASHBOARD_WIDTH } }}>
+        {renderContent}
+      </Drawer>
     </RootStyle>
   );
 }

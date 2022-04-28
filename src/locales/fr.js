@@ -19,7 +19,9 @@ const fr = {
   FOOD:'ALIMENTS',
   OIL:'HUILE',
   FLOWER:'FLEUR',
-  FOOTER_TEXT: `© Ollorun 2022 Tous droits réservés <br>OLLORUN Network Limited (numéro d'entreprise 12660658) appartient à SAPIAN GROUP/FLASH GROUP.`
+  FOOTER_TEXT: `© Ollorun 2022 Tous droits réservés <br>OLLORUN Network Limited (numéro d'entreprise 12660658) appartient à SAPIAN GROUP/FLASH GROUP.`,
+  Your_mag_is_coming_soon: `Votre mag arrive bientôt!`,
+  GREENS_VIDEOS:`LES VIDÉOS DE GREEN`,
 };
 
 export default fr;

@@ -19,7 +19,9 @@ const es = {
   FOOD:'ALIMENTO',
   OIL:'PETRÓLEO',
   FLOWER:'FLOR',
-  FOOTER_TEXT: '© Ollorun 2022 Todos los derechos reservados. <br>OLLORUN Network Limited (número de empresa 12660658) es propiedad de SAPIAN GROUP/FLASH GROUP.'
+  FOOTER_TEXT: '© Ollorun 2022 Todos los derechos reservados. <br>OLLORUN Network Limited (número de empresa 12660658) es propiedad de SAPIAN GROUP/FLASH GROUP.',
+  Your_mag_is_coming_soon: `¡Tu revista llegará pronto!`,
+  GREENS_VIDEOS:`VIDEOS DE VERDE`,
 };
 
 export default es;

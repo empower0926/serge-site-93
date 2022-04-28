@@ -1,12 +1,11 @@
-import { Stack, Button, Link, Divider, Typography } from '@mui/material';
+import { Stack, Link, Divider, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { Box } from '@mui/system';
-import { IconButtonAnimate } from '../../../components/animate';
 import Logo from '../../../components/Logo';
 import navConfig from '../navbar/NavConfig';
 import useLocales from '../../../hooks/useLocales';
 
-const FooterStyle = styled('footer')(({ theme }) => ({
+const FooterStyle = styled('footer')(() => ({
   background: '#000',
   padding: '24px 0',
   //   [theme.breakpoints.down('sm')]: {
@@ -26,9 +25,9 @@ export default function Footer() {
   const { translate } = useLocales();
   return (
     <FooterStyle>
-      <Stack direction="row" justifyContent="space-between" sx={{ px: { sm: '48px', md: '24px' } }}>
+      <Stack direction={{xs: 'column', lg: 'row' }} justifyContent="space-between" alignItems='center' sx={{ px: { xs: '24px', lg: '48px' }, }}>
         <Logo type={'full'} />
-        <Stack direction="row" alignItems="center" spacing={{ sm: 3, md: 5 }}>
+        <Stack direction={{xs: 'column', md: 'row'}} alignItems="center" spacing={{ xs: 3, lg: 5 }} sx={{mt: {xs:'24px', lg: '0'}}}>
           {navConfig[0].items.map((e, index) => (
             <div key={index}>
               <LinkStyle href={e.path}>{translate(e.title)}</LinkStyle>
