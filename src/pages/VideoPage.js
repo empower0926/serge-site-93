@@ -8,7 +8,7 @@ import Skeleton from '@mui/material/Skeleton';
 import useLocales from '../hooks/useLocales';
 // components
 import Page from '../components/Page';
-import { MotionContainer, varFade } from '../components/animate';
+import { MotionViewport, varFade } from '../components/animate';
 import Charter from '../components/Charter';
 import VideoGallery from 'src/components/video/VideoGallery';
 import { styled } from '@mui/system';
@@ -120,10 +120,9 @@ export default function VideoPage() {
   return (
     <Page title="Video Page">
       <Charter text={'GREENS_VIDEOS'} />
-      <MotionContainer>
+      <MotionViewport>
         <m.div variants={varFade().inDown}>
           <VideoBox className={data?'open':''} sx={{ width: '700px', maxWidth: '100%', mx: 'auto', mt: { xs: -5, sm: -5, md: -8, lg: -10 } }}  onClick={handlePlay}>
-            {/* <ButtonStyle></ButtonStyle> */}
             <Box className="bgVideo"> </Box>
             <button className="btPlay"> </button>
             <Box className="videoContainer">
@@ -140,7 +139,7 @@ export default function VideoPage() {
             </Box>
           </VideoBox>
         </m.div>
-      </MotionContainer>
+      </MotionViewport>
       <VideoGallery />
     </Page>
   );

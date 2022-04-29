@@ -3,7 +3,6 @@ import useLocales from '../hooks/useLocales';
 // components
 import Page from '../components/Page';
 import Charter from '../components/Charter';
-import FaqBox from '../components/Faq/FaqBox';
 import About from '../components/About';
 // ----------------------------------------------------------------------
 

@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 import { Box, Grid, Typography } from '@mui/material';
 import styled from '@emotion/styled';
+import { m } from 'framer-motion';
+import { MotionViewport, varFade } from '../animate';
 import useLocales from '../../hooks/useLocales';
 
 const BoxStyle = styled('div')({
@@ -12,7 +14,7 @@ const BoxStyle = styled('div')({
   '& h4': {
     fontWeight: 'lighter',
     backgroundColor: 'rgba(0, 0, 0, 0.45)',
-    padding: '8px 0'
+    padding: '8px 0',
   },
 });
 BotImgCard.propTypes = {
@@ -23,14 +25,16 @@ export default function BotImgCard({ title, path }) {
   const { translate } = useLocales();
   return (
     <Grid item md={3} xs={6} sm={3}>
-      <Box sx={{ position: 'relative' }}>
-        <Box component="img" src={path} width="100%" height="auto" />
-        <BoxStyle>
-          <Typography variant="h4" component="h4" color="white">
-            {translate(title)}
-          </Typography>
-        </BoxStyle>
-      </Box>
+      <m.div variants={varFade().inUp}>
+        <Box sx={{ position: 'relative' }}>
+          <Box component="img" src={path} width="100%" height="auto" />
+          <BoxStyle>
+            <Typography variant="h4" component="h4" color="white">
+              {translate(title)}
+            </Typography>
+          </BoxStyle>
+        </Box>
+      </m.div>
     </Grid>
   );
 }
