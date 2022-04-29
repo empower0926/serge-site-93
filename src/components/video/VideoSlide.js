@@ -1,24 +1,14 @@
 import { m } from 'framer-motion';
 import Slider from 'react-slick';
-import { Box, Stack, Typography, Button, Link } from '@mui/material';
-import { Link as RouterLink } from 'react-router-dom';
+import { Box, Typography, useMediaQuery } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import PropTypes from 'prop-types';
 import useLocales from '../../hooks/useLocales';
-import { MotionContainer, varFade } from '../animate';
-
-const settings = {
-  infinite: true,
-  speed: 1000,
-  // autoplay: true,
-  slidesToShow: 4,
-  slidesToScroll: 4,
-};
+import { MotionViewport, varFade } from '../animate';
 
 const Img = styled('img')({
   maxWidth: '100%',
   height: 'auto',
-  padding: '56px 0',
+  cursor: 'pointer'
 });
 const SliderStyle = styled(Slider)({
   '& img': {
@@ -26,6 +16,7 @@ const SliderStyle = styled(Slider)({
     transition: 'all ease 1s',
   },
   '& .slick-next, & .slick-prev': {
+    top: `calc(50% - 24px)`,
     visibility: 'visible',
     zIndex: '999',
   },
@@ -41,38 +32,36 @@ const SliderStyle = styled(Slider)({
   },
 });
 
-export default function VideoSlide() {
+export default function VideoSlide({ content }) {
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, [pathname]);
   const { translate } = useLocales();
-
+  const isMobile = useMediaQuery('(max-width: 576px)');
+  const settings = {
+    infinite: true,
+    speed: 1000,
+    // autoplay: true,
+    slidesToShow: isMobile ? 2 : 4,
+    slidesToScroll: isMobile ? 2 : 4,
+  };
+  const handleVideo = ()=>{
+    window.scrollTo(0, 0);
+  }
   return (
     <Box>
-      <MotionContainer>
-        <Box>
-          {/* <m.div variants={varFade().inRight}>
-            <Box component='img' src={props.path}></Box>
-            <Typography component="h3" variant="h2" textAlign="center" sx={{ mb: '80px', fontWeight: 'lighter' }}>
-              {translate(props.title)}
-            </Typography>
-          </m.div> */}
-        </Box>
+      <m.div variants={varFade().inUp}>
         <SliderStyle {...settings} sx={{ maxWidth: '1200px', mx: 'auto' }}>
-          {/* {props.src.map((src, index) => (
-            <Box key={index} sx={{ px: '8px' }}>
-              <Box sx={{ background: '#E9E8E4', position: 'relative' }}>
-                  <Img src={src} alt="img1" />
-              </Box>
+          {content.map((data, index) => (
+            <Box key={index} sx={{ px: 1 }}>
+              <Img src={data.path} alt="img1" onClick={handleVideo} />
+              <Typography variant="body1" component="p" sx={{ mt: 2 }}>
+                {data.title}
+              </Typography>
             </Box>
-          ))} */}
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
-          <div>4</div>
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
-          <div>4</div>
+          ))}
         </SliderStyle>
-      </MotionContainer>
+      </m.div>
     </Box>
   );
 }

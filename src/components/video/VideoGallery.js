@@ -1,31 +1,31 @@
 import { m } from 'framer-motion';
-import Slider from 'react-slick';
-import { Box, Container, Stack, Typography, Button, Link, Divider } from '@mui/material';
-import { Link as RouterLink } from 'react-router-dom';
+import { Box, Container, Typography, Divider } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import PropTypes from 'prop-types';
-import { useEffect } from 'react';
 import useLocales from '../../hooks/useLocales';
-import { MotionContainer, varFade } from '../animate';
+import { MotionViewport, varFade } from '../animate';
 import VideoConfig from './VideoConfig';
 import HomeConfig from '../home/HomeConfig';
+import VideoSlide from './VideoSlide';
 
 export default function VideoGallery() {
   const { translate } = useLocales();
   return (
     <Container sx={{ maxWidth: '1200px', py: 5 }}>
-      <MotionContainer>
-        {VideoConfig.map((e, index) => (
-          <Box>
+      {VideoConfig.map((e, index) => (
+        <Box sx={{ py: 5 }} key={index}>
+          <MotionViewport>
             <m.div variants={varFade().inRight}>
-              <Typography key={index} variant="h3" component="h3" sx={{fontWeight: 'lighter'}}>
+              <Typography variant="h3" component="h3" sx={{ fontWeight: 'lighter' }}>
                 {e.category}
               </Typography>
             </m.div>
-            <Divider />
-          </Box>
-        ))}
-      </MotionContainer>
+          </MotionViewport>
+          <Divider sx={{ mb: 4 }} />
+          <MotionViewport>
+            <VideoSlide content={e.content} />
+          </MotionViewport>
+        </Box>
+      ))}
     </Container>
   );
 }

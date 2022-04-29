@@ -133,8 +133,65 @@ const en = {
   CBN_CBD_Elixir_DESC: `Known for its many soothing virtues, CBD finds in this oil a very effective partner: CBN. Also coming from
   hemp, its presence will allow you to target the quality of sleep and the loss of appetite. A great ally for
   your daily well-being!`,
+  // other
   Your_mag_is_coming_soon: `Your mag is coming soon!`,
-  GREENS_VIDEOS:`GREEN'S VIDEOS`
+  GREENS_VIDEOS: `GREEN'S VIDEOS`,
+  // faq
+  What_is_CBD: `What is CBD?`,
+  What_is_CBD_ANS: `The abbreviation "CBD" comes from the term "cannabidiol". It is a
+  molecule that is one of many (around 100) cannabinoids present in hemp,
+  also called cannabis sativa. CBD has a large number of benefits for
+  improving well-being: sleep, relaxation, pain management.`,
+  Are_hemp_and_CBD_legal: `Are hemp and CBD legal?`,
+  Are_hemp_and_CBD_legal_ANS: `The answer is yes. It is not obvious to the eye to tell the difference between
+  a legal and illegal product, because the plants come from the same
+  species. What allows you to know if your product is legal or not, it is the
+  rate of THC. Indeed, only a rate below 0,3%, fixed by the European
+  regulation, allows to assure the legality. For processed products, such as
+  cosmetics, the rate is 0% THC. The WHO ensures the legality of hemp,
+  because it does not cause psychotropic effects.`,
+  Can_flowers_be_smoked: `Can flowers be smoked?`,
+  Can_flowers_be_smoked_ANS: `The flowers should not be smoked. It is advisable to consume them either
+  in infusions with a fatty substance. Indeed, hemp is not water-soluble. It is
+  also possible to integrate them in your recipes.`,
+  What_is_the_difference_between_hemp_CBD_and_cannabis: `What is the difference between hemp (CBD) and cannabis?`,
+  What_is_the_difference_between_hemp_CBD_and_cannabis_ANS: `The "cannabis" family is composed of several varieties, including
+  Marijuana, which has the particularity of having psychotropic effects
+  (recreational cannabis). Hemp is another variety. Its difference is that it
+  has only 0.3% THC. Thus, it has no psychoactive effect, contrary to the first
+  variety mentioned. Thanks to this low THC content, hemp is legal, unlike
+  the first mentioned variety.`,
+  How_to_use_hemp_oil: `How to use hemp oil?`,
+  How_to_use_hemp_oil_ANS: `To use hemp oil, it can be added to food or to a drink. What we
+  recommend and what brings a more important efficiency is to put the
+  drops under the tongue. The sublingual action allows a more important
+  and faster effect thanks to the numerous blood vessels present in this part
+  of the mouth.`,
+  How_to_use_hemp_pollen: `How to use hemp pollen?`,
+  How_to_use_hemp_pollen_ANS: `Hemp pollen, also called resin, can be used in two different ways: \n in infusion: let it infuse for 10 minutes with a fatty substance such as oil or
+  soy milk. This allows the dissolution of hemp which in its usual state is not
+  water-soluble. \n In cooking: to integrate in your best recipes.`,
+  How_to_use_hemp_rock: `How to use hemp rock?`,
+  How_to_use_hemp_rock_ANS: `Hemp rock can be used in two different ways: \n\n  In infusion: let it infuse for 10 minutes with a fatty substance such as oil or
+  soy milk. This allows the dissolution of hemp which in its usual state is not
+  water-soluble \n In cooking: to integrate in your best recipes.`,
+  How_to_use_hemp_flower: `How to use hemp flower?`,
+  How_to_use_hemp_flower_ANS: `Hemp flower can be used in two different ways: \n\n  In infusion: let it infuse for 10 minutes with a fatty substance such as oil or
+  soy milk. This allows the dissolution of hemp which in its usual state is not
+  water-soluble. \n In cooking: to integrate in your best recipes.`,
+  In_which_cases_the_consumption_of_hemp_is_not_recommended: `In which cases the consumption of hemp is not recommended?`,
+  // about
+  ABOUT_TEXT1: `As a hemp specialist, Greensensitive offers four product collections. A range of experiences that meet all
+  expectations, from the well-being of oils to the lifestyle of sweets. These different ranges aim to provide
+  quality in terms of product, choice and accompaniment. Hemp is a plant whose knowledge is still in its
+  infancy. Greensensitive wishes to share with you all its experience and knowledge, while asserting itself
+  through the novelty and dynamism of the hemp world. Learn and understand in order to choose your
+  wellness.`,
+  ABOUT_TEXT2: `Greensensitive by Ollorun Care`,
+  ABOUT_TEXT3: `Greensensitive is part of the Ollorun Network, one of whose engagements is the development of wellness
+  areas. This Network forges the link with a hybrid sales network, thought between the societal model and
+  the relational marketing`,
+  OUR_OFFERS: 'OUR OFFERS',
 };
 
 export default en;

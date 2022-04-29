@@ -4,48 +4,48 @@ const VideoConfig = [
         content:[
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/1.png',
+                path: '/assets/images/video/tuto/1.png',
             },
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/2.png',
+                path: '/assets/images/video/tuto/1.png',
             },
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/3.png',
+                path: '/assets/images/video/tuto/1.png',
             },
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/4.png',
+                path: '/assets/images/video/tuto/1.png',
             },
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/4.png',
+                path: '/assets/images/video/tuto/1.png',
             },
         ]
     },
     {
-        category: 'THE STORIES',
+        category: 'THE_STORIES',
         content:[
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/1.png',
+                path: '/assets/images/video/tuto/1.png',
             },
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/2.png',
+                path: '/assets/images/video/tuto/1.png',
             },
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/3.png',
+                path: '/assets/images/video/tuto/1.png',
             },
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/4.png',
+                path: '/assets/images/video/tuto/1.png',
             },
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/4.png',
+                path: '/assets/images/video/tuto/1.png',
             }
         ]
     },
@@ -54,49 +54,49 @@ const VideoConfig = [
         content:[
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/1.png',
+                path: '/assets/images/video/tuto/1.png',
             },
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/2.png',
+                path: '/assets/images/video/tuto/1.png',
             },
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/3.png',
+                path: '/assets/images/video/tuto/1.png',
             },
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/4.png',
+                path: '/assets/images/video/tuto/1.png',
             },
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/4.png',
+                path: '/assets/images/video/tuto/1.png',
             },
         ]
     },
     {
-        category: 'UNDERSTAND HEMP',
+        category: 'UNDERSTAND_HEMP',
         content:[
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/1.png',
+                path: '/assets/images/video/tuto/1.png',
             },
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/2.png',
+                path: '/assets/images/video/tuto/1.png',
             },
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/3.png',
+                path: '/assets/images/video/tuto/1.png',
             },
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/4.png',
+                path: '/assets/images/video/tuto/1.png',
             }
             ,
             {
                 title: 'TUTOTITLE1',
-                path: '/assets/images/BODY/4.png',
+                path: '/assets/images/video/tuto/1.png',
             }
         ]
     },
