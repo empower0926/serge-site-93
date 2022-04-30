@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { useState } from 'react';
 import { Box, Container, Divider, Grid, Stack, Typography } from '@mui/material';
 import styled from '@emotion/styled';
 import { m } from 'framer-motion';
@@ -9,21 +10,42 @@ import GlossaryConfig from './GlossaryConfig';
 
 export default function Glossary() {
   const { translate } = useLocales();
+  const [keyWord, setKeyword] = useState('All');
+  const handleSearch = (e) => {
+    console.log(e);
+    setKeyword(e);
+  };
+
   return (
     <Container sx={{ maxWidth: '1200px', py: 6 }}>
       <Stack direction="row" mb={4} sx={{ flexWrap: 'wrap' }}>
-        <KeyButton title='All' variant="text" />
+        <Box
+          variant="span"
+          onClick={() => {
+            handleSearch('All');
+          }}
+        >
+          <KeyButton title="All" variant="text" />
+        </Box>
         {GlossaryConfig.map((e, index) => (
-          <KeyButton title={translate(e.title)} variant="text" />
+          <Box
+            key={index}
+            variant="span"
+            onClick={() => {
+              handleSearch(e.title);
+            }}
+          >
+            <KeyButton title={translate(e.title)} variant="text" />
+          </Box>
         ))}
       </Stack>
       <Stack>
         {GlossaryConfig.map((e, index) => (
-          <Stack key={index} mb={3}>
+          <Stack key={index} mb={3} sx={{ display: `${keyWord === 'All' || keyWord === e.title ? 'block' : 'none'}` }}>
             <Typography variant="h5" fontWeight="600">
               {translate(e.title)}
             </Typography>
-            <Divider sx={{my: 1}} />
+            <Divider sx={{ my: 1 }} />
             <Typography variant="body1" fontSize="18px">
               {translate(e.content)}
             </Typography>

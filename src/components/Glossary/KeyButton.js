@@ -13,7 +13,7 @@ const ButtonStyle = styled(Button)({
   marginBottom: '4px',
   padding: '2px 16px'
 });
-export default function KeyButton({ title, path }) {
+export default function KeyButton({ title, path, onClick }) {
   const { translate } = useLocales();
   return <ButtonStyle>{title}</ButtonStyle>;
 }

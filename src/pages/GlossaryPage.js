@@ -11,7 +11,7 @@ export default function GlossaryPage() {
   const { translate } = useLocales();
   return (
     <Page title="Glossary Page" sx={{ position: 'relative' }}>
-      <Charter text={'Glossary'} />
+      <Charter text={'GLOSSARY'} />
       <Glossary />
     </Page>
   );
