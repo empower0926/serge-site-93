@@ -192,6 +192,78 @@ const en = {
   areas. This Network forges the link with a hybrid sales network, thought between the societal model and
   the relational marketing`,
   OUR_OFFERS: 'OUR OFFERS',
+  // glossary
+  Tonsils: `Tonsils`,
+  Tonsils_CONTENT: `An almond-shaped lymphoid organ located in the pharynx. (The lingual tonsil is located at the base of the tongue in the
+    hypopharynx; the two palatine tonsils are located on either side of the oropharynx; the pharyngeal tonsil is located on the posterior
+    wall of the nasopharynx. The enlargement of the pharyngeal tonsil constitutes the adenoids).`,
+  Classic_Bud: `Classic Bud`,
+  Classic_Bud_CONTENT: `These are the top parts of hemp (flowers) available in whole.`,
+  Cannabis_Sativa: `Cannabis Sativa`,
+  Cannabis_Sativa_CONTENT: `Cannabis Sativa" is the scientific name for hemp. It is one of the two main species of Cannabinaceae, one of which has psychotropic
+  effects (commonly called "recreational cannabis") and the other one does not have psychotropic effects (commonly called hemp or
+  CBD, although the latter is a misnomer).`,
+  CBD: `CBD`,
+  CBD_CONTENT: `The formula "CBD" is the abbreviation of the term "cannabidiol". This molecule is one of the many (around two hundred)
+  cannabinoids present in hemp, also called cannabis sativa.`,
+  Super_Critical_CO2: `Super Critical CO2`,
+  Super_Critical_CO2_CONTENT: `This is the extraction technique used for hemp-based products. It allows to obtain a compound by preserving all its integrity and to
+  take full advantage of its own qualities.`,
+  Cortisol: `Cortisol`,
+  Cortisol_CONTENT: `Cortisol is a hormone produced by the adrenal glands. It plays an essential role in balancing blood glucose and releasing sugar from
+  the body's stores in response to increased energy demands. Cortisol is also involved in the metabolism of fats and proteins.`,
+  Surrounding_effect: `Surrounding effect`,
+  Surrounding_effect_CONTENT: `CBD is one of the molecules that are present in hemp. Only, it is not alone. It is a molecule that needs the surrounding effect to be
+  activated: that is to say that it can be totally effective only when it is accompanied by all the molecules of the hemp plant.`,
+  Hemp_flower: `Hemp flower`,
+  Hemp_flower_CONTENT: `The hemp flower is the top part harvested from the hemp plant. It is then used dried or in the form of oil.`,
+  Full_spectrum: `Full spectrum`,
+  Full_spectrum_CONTENT: `While isolate is defined as a pure CBD product, meaning it contains only CBD, and no other cannabis components, Full Spectrum
+  hemp is an extract that includes all the cannabinoids present in the cannabis plant. This allows for the surrounding effect and full
+  effectiveness of CBD.`,
+  Thymus_gland: `Thymus gland`,
+  Thymus_gland_CONTENT: `The thymus is a gland located in the upper chest, just behind the breastbone and between the lungs. The thymus is part of the
+  endocrine and lymphatic systems.`,
+  Homeostasis: `Homeostasis`,
+  Homeostasis_CONTENT: `It is the stabilization of the balance in the body and the adjustment in living organisms of certain physiological characteristics.`,
+  MCT_Oil: `MCT Oil`,
+  MCT_Oil_CONTENT: `It is the oily base associated with hemp oil. Its interest compared to a classic oil, found in other products (e.g. coconut, rapeseed or
+    sunflower oil), is that its digestion does not require the action of the pancreas or the gallbladder. Its absorption then takes place very
+    high in the intestine. This allows a better assimilation by the body. Indeed, the body is largely composed of water. As oil and water do
+    not mix, it is necessary to ensure good absorption. MCT oil allows this.`,
+  Indoor: `Indoor`,
+  Indoor_CONTENT: `This means that the plants were harvested under greenhouses. The interest of this mode of culture is that the greenhouses allow the
+  management of heat, humidity and light. The lighting system also allows to manage the height of the plant because it stops growing
+  once it reaches the light. This guarantees the quality of each flower grown.`,
+  Isolate: `Isolate`,
+  Isolate_CONTENT: `An isolate is a product where there is only the CBD molecule. There is not the complete spectrum of hemp. The effectiveness is
+  therefore less, because of the absence of the effect of surrounding.`,
+  Rate: `Rate`,
+  Rate_CONTENT: `Richly vascularized organ located in the upper left corner of the abdomen, between the diaphragm and the ribs, which, before birth,
+  produces part of the blood cells and, after birth, plays an important role in immunity.`,
+  CB1_receptor: `CB1 receptor`,
+  CB1_receptor_CONTENT: `Mainly located in the brain and in the spinal cord, it allows the balance of connective tissues, reproductive organs, glands and internal
+  organs. It acts on mood, relaxation, ability to deal with stress, memory, learning, rest, libido, ability to forget, management of
+  involuntary movements.`,
+  CB2_receptor: `CB2 receptor`,
+  CB2_receptor_CONTENT: `Mainly located around the immune system, it balances the spleen, the tonsils, the thymus gland (linked to the endocrine and
+    lymphatic system), the white blood cells. It acts on inflammatory processes, pain receptors and cortisol regulation.`,
+  Resin: `Resin`,
+  Resin_CONTENT: `The resin is made of hemp pollen. It is a concentrate of hemp and therefore of cannabinoids.`,
+  Rock: `Rock`,
+  Rock_CONTENT: `It is a mixture of hemp flowers, full-spectrum hemp oil and pollen. The flower is soaked in hemp oil and then in pollen.`,
+  Small_bud_premium: `Small bud premium`,
+  Small_bud_premium_CONTENT: `These are the smallest diameter flowers isolated from the main production. They are then grouped together to give birth to the Small
+  Bud Premium.`,
+  Endocannabinoid_system: `Endocannabinoid system`,
+  Endocannabinoid_system_CONTENT: `The endocannabinoid system is naturally present in our body. It allows homeostasis, which stabilizes the balance in the body and the
+  regulation of certain physiological characteristics in living organisms`,
+  THC: `THC`,
+  THC_CONTENT: `The formula "THC" is the abbreviation of the term "delta-9-tetrahydrocannabinol". Like CBD, it is a molecule that is part of the
+  cannabinoid family. Only, unlike CBD, THC produces psychoactive effects. That is why it should not exceed 0.3% in all products
+  marketed.`,
+  Trim: `Trim`,
+  Trim_CONTENT: `It is a mixture of small flowers and fragments of hemp.`,
 };
 
 export default en;

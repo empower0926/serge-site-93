@@ -4,14 +4,15 @@ import useLocales from '../hooks/useLocales';
 import Page from '../components/Page';
 import Charter from '../components/Charter';
 import About from '../components/About';
+import Glossary from '../components/Glossary';
 // ----------------------------------------------------------------------
 
 export default function GlossaryPage() {
   const { translate } = useLocales();
   return (
-    <Page title="About Page" sx={{ position: 'relative' }}>
+    <Page title="Glossary Page" sx={{ position: 'relative' }}>
       <Charter text={'Glossary'} />
-      This is Glossary page!
+      <Glossary />
     </Page>
   );
 }

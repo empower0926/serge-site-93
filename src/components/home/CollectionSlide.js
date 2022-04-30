@@ -10,7 +10,7 @@ import { MotionContainer, varFade } from '../animate';
 const settings = {
   infinite: true,
   speed: 1000,
-  // autoplay: true,
+  autoplay: true,
   slidesToShow: 4,
   slidesToScroll: 4,
 };
