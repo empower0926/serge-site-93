@@ -69,7 +69,7 @@ export default function CustomizedAccordions() {
           <AccordionDetails>
             {index !== 8 ? (
               <Typography
-                variant="h5"
+                variant="p"
                 component="p"
                 sx={{ whiteSpace: `${index === 7 || index === 6 ? 'pre-line' : ''}`, fontWeight: 'lighter' }}
               >

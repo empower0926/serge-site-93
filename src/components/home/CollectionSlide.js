@@ -1,19 +1,14 @@
+/* eslint-disable */
 import { m } from 'framer-motion';
 import Slider from 'react-slick';
-import { Box, Stack, Typography, Button, Link } from '@mui/material';
+import { Box, Stack, Typography, Button, Link, useMediaQuery } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
 import { styled } from '@mui/material/styles';
 import PropTypes from 'prop-types';
 import useLocales from '../../hooks/useLocales';
 import { MotionContainer, varFade } from '../animate';
 
-const settings = {
-  infinite: true,
-  speed: 1000,
-  autoplay: true,
-  slidesToShow: 4,
-  slidesToScroll: 4,
-};
+// const isMobile = useMediaQuery('(max-width: 576px)');
 
 const Img = styled('img')({
   maxWidth: '100%',
@@ -25,13 +20,14 @@ const SliderStyle = styled(Slider)({
     margin: 'auto',
     transition: 'all ease 1s',
   },
-  '& Button': {
+  '& a': {
     visibility: 'hidden',
     transition: 'all ease 300ms',
   },
   '& .slick-next, & .slick-prev': {
     visibility: 'visible',
     zIndex: '999',
+    height: '36px',
   },
   '& .slick-next:before, & .slick-prev:before': {
     visibility: 'visible',
@@ -48,28 +44,48 @@ const SliderStyle = styled(Slider)({
     img: {
       opacity: '0.2',
     },
-    Button: {
+    a: {
       visibility: 'visible',
     },
   },
 });
 const StackStyle = styled(Stack)({
   position: 'absolute',
+  left: '0',
+  bottom: '0',
+  width: '100%',
+  '& a': {
+    color: '#000',
+    width: '50%',
+    fontWeight: 'lighter',
+  },
+  '& a:hover': {
+    color: '#fff',
+    backgroundColor: '#000',
+  },
+});
+const QuickBoxStyle = styled(Stack)({
+  position: 'absolute',
   left: '50%',
   top: '50%',
+  width: '100%',
   transform: 'translate(-50%, -50%)',
+  '& a': {
+    color: '#000',
+    width: '50%',
+    margin: '0 auto',
+    fontWeight: 'lighter',
+  },
+  '& a:hover': {
+    color: '#fff',
+    backgroundColor: '#000',
+  },
 });
 const ButtonStyle = styled(Button)({
   borderColor: '#000 !important',
-  '& a': {
-    color: '#000',
-  },
-  fontWeight: 'lighter !important',
-  '&:hover': {
-    '& a': {
-      color: '#fff',
-    },
-    background: '#000 !important',
+  borderRadius: '0',
+  '&:before': {
+    borderColor: '#fff !important',
   },
 });
 
@@ -79,11 +95,21 @@ CollectionSlide.propTypes = {
   src: PropTypes.array,
 };
 export default function CollectionSlide(props) {
+  const isMobile = useMediaQuery('(max-width: 576px)');
+  const isTablet = useMediaQuery('(max-width: 750px)');
+  const isLaptop = useMediaQuery('(max-width: 990px)');
+  const settings = {
+    infinite: true,
+    speed: 1000,
+    autoplay: true,
+    slidesToShow: isMobile? 1 : isTablet?2:isLaptop?3:4,
+    slidesToScroll: isMobile? 1 : isTablet?2:isLaptop?3:4,
+  };
   const { translate } = useLocales();
   const text = '/productdetail/';
   const dash = '/';
   return (
-    <Box sx={{ backgroundColor: props.bgColor, py: '80px' }}>
+    <Box sx={{ background: props.bgColor, py: '80px', backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <MotionContainer>
         <Box>
           <m.div variants={varFade().inUp}>
@@ -96,16 +122,20 @@ export default function CollectionSlide(props) {
           {props.src.map((src, index) => (
             <Box key={index} sx={{ px: '8px' }}>
               <Box sx={{ background: '#E9E8E4', position: 'relative' }}>
-                {/* <Link href={text+props.title+index} > */}
-                <Link to={`${text}${props.title}${dash}${index}`} component={RouterLink}>
-                  <Img src={src} alt="img1" />
-                </Link>
-                <StackStyle spacing={2}>
-                  <ButtonStyle variant="outlined">
-                    <a href="https://backoffice.ollorun.com/login/client">{translate('CUSTOMER')}</a>
+                {/* <Link to={`${text}${props.title}${dash}${index}`} component={RouterLink}> */}
+                <Img src={src} alt="img1" />
+                {/* </Link> */}
+                <QuickBoxStyle>
+                  <ButtonStyle variant="outlined" href={`${text}${props.title}${dash}${index}`}>
+                    {translate('QUICK_VIEW')}
                   </ButtonStyle>
-                  <ButtonStyle variant="outlined">
-                    <a href="https://backoffice.ollorun.com/login/client">{translate('ADVISOR_DST')}</a>
+                </QuickBoxStyle>
+                <StackStyle direction="row">
+                  <ButtonStyle variant="outlined" href="https://backoffice.ollorun.com/login/client">
+                    {translate('CUSTOMER')}
+                  </ButtonStyle>
+                  <ButtonStyle variant="outlined" href="https://backoffice.ollorun.com/login/client">
+                    {translate('ADVISOR_DST')}
                   </ButtonStyle>
                 </StackStyle>
               </Box>

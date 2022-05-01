@@ -7,10 +7,10 @@ const navConfig = [
     items: [
       { title: 'HOME', path: '/home'},
       { title: 'THE_CBD_MAG', path: '/mag'},
-      { title: 'VIDEO', path: '/video'},
+      { title: 'VIDEOS', path: '/video'},
       { title: 'FAQ', path: '/faq'},
       { title: 'ABOUT', path: '/about'},
-      { title: 'GLOSSARY', path: '/glossary'},
+      { title: 'INDEX', path: '/glossary'},
     ],
   },
 ];

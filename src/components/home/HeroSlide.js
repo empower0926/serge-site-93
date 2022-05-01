@@ -6,7 +6,7 @@ import { styled } from '@mui/material/styles';
 const settings = {
   fade: true,
   infinite: true,
-  speed: 1000,
+  speed: 600,
   autoplay: true,
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -19,7 +19,6 @@ const imgSrcs = [
   '/assets/images/HeroCaro/5.jpg',
 ];
 const Img = styled('img')({
-  maxWidth: '100%',
   height: 'auto',
 });
 const SliderStyle = styled(Slider)({
@@ -36,7 +35,7 @@ export default function HeroSlide() {
       <SliderStyle {...settings}>
         {imgSrcs.map((src, index) => (
           <Box key={index}>
-            <Img src={src} alt="img1"/>
+            <Img src={src} alt="img1" sx={{width: {xs:'90%', sm: '70%'}}}/>
           </Box>
         ))}
       </SliderStyle>

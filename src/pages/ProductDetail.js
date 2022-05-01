@@ -30,14 +30,14 @@ export default function ProductDetail() {
   }, [data]);
   return (
     <Page title="Product Detail">
-      <MotionContainer sx={{px: '16px'}}>
-        <Stack direction={{ xs: 'column', lg: 'row' }} sx={{ pb: '48px', maxWidth: '1200px', mx: 'auto'}}>
+      <MotionContainer sx={{ px: '16px' }}>
+        <Stack direction={{ xs: 'column', lg: 'row' }} sx={{ pb: '48px', maxWidth: '1200px', mx: 'auto' }}>
           <m.div variants={varFade().inUp}>
             <Box component="img" src={translate(data.path)} width="600px" height="auto" sx={{ mx: 'auto' }} />
           </m.div>
-          <Stack direction="column" justifyContent="center" sx={{ whiteSpace: 'pre-line', mx: 'auto', width: '600px', maxWidth:'100%' }}>
+          <Stack direction="column" justifyContent="center" sx={{ mx: 'auto', width: '600px', maxWidth: '100%' }}>
             <m.div variants={varFade().inRight}>
-              <Typography variant="h4" component="h4" paragraph>
+              <Typography variant="h4" component="h4" paragraph sx={{ whiteSpace: 'pre-line' }}>
                 {translate(data.title)}
               </Typography>
             </m.div>

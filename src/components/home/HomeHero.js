@@ -13,6 +13,17 @@ import useLocales from '../../hooks/useLocales';
 const Img = styled(m.img)({
   width: '100%',
   height: 'auto',
+  minHeight: '130px',
+});
+const RelativeDivStyle = styled('div')({
+  position: 'relative',
+  backgroundColor: '#000',
+  '& img': {
+    width: '100%',
+    height: 'auto',
+    minHeight: '130px',
+    opacity: '0.8'
+  },
 });
 
 // ----------------------------------------------------------------------
@@ -22,13 +33,12 @@ export default function HomeHero() {
   return (
     <Box>
       <MotionContainer>
-        <Box sx={{ position: 'relative' }}>
-          <Img src="/assets/illustrations/charter.png" alt="charter" sx={{ minHeight: '130px' }} />
+        <RelativeDivStyle sx={{ position: 'relative' }}>
+          <Img src="/assets/illustrations/charter.png" alt="charter" />
           <Box sx={{ position: 'absolute', left: '0', top: '15%', width: '100%', textAlign: 'center' }}>
             <m.div variants={varFade().inUp}>
               <Typography
-                component="span"
-                variant="subtitle1"
+                variant="h5"
                 sx={{
                   color: 'common.white',
                   px: '8px',
@@ -38,8 +48,8 @@ export default function HomeHero() {
               </Typography>
             </m.div>
           </Box>
-        </Box>
-        <Box sx={{ marginTop: '-10%', maxWidth: '1200px', mx: 'auto' }}>
+        </RelativeDivStyle>
+        <Box sx={{ marginTop: '-10%', mx: 'auto' }}>
           <HeroSlide />
         </Box>
       </MotionContainer>
