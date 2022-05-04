@@ -6,6 +6,7 @@ const navConfig = [
   {
     items: [
       { title: 'HOME', path: '/home'},
+      { title: 'COLLECTIONS', path: '/collection'},
       { title: 'THE_CBD_MAG', path: '/mag'},
       { title: 'VIDEOS', path: '/video'},
       { title: 'FAQ', path: '/faq'},

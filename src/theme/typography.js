@@ -54,6 +54,7 @@ const typography = {
   },
   p: {
     fontFamily: FONT_SECONDARY,
+    fontSize: pxToRem(20),
   },
   a: {
     fontFamily: FONT_SECONDARY,

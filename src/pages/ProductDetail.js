@@ -1,21 +1,23 @@
 /* eslint-disable */
 import { m } from 'framer-motion';
 import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 // @mui
-import { Container, Typography, Box, Stack } from '@mui/material';
+import { Container, Typography, Box, Stack, IconButton } from '@mui/material';
+import Iconify from '../components/Iconify';
 // hooks
 import useLocales from '../hooks/useLocales';
 // components
 import Page from '../components/Page';
 import ProductConfig from '../components/productdetail/ProductConfig';
-import { MotionContainer, varFade } from '../components/animate';
+import { MotionViewport, varFade, varFlip } from '../components/animate';
 // ----------------------------------------------------------------------
 
 export default function ProductDetail() {
   const [data, setData] = useState({});
   const { name, id } = useParams();
   const { translate } = useLocales();
+  const navigate = useNavigate();
   useEffect(() => {
     ProductConfig.map((item) => {
       const { foldername, content } = item;
@@ -25,12 +27,9 @@ export default function ProductDetail() {
     });
   }, []);
 
-  useEffect(() => {
-    console.log('Hello World:', data);
-  }, [data]);
   return (
-    <Page title="Product Detail">
-      <MotionContainer sx={{ px: '16px' }}>
+    <Page title="Product Detail" sx={{position: 'relative'}}>
+      <MotionViewport sx={{ px: '16px' }}>
         <Stack direction={{ xs: 'column', lg: 'row' }} sx={{ pb: '48px', maxWidth: '1200px', mx: 'auto' }}>
           <m.div variants={varFade().inUp}>
             <Box component="img" src={translate(data.path)} width="600px" height="auto" sx={{ mx: 'auto' }} />
@@ -48,7 +47,14 @@ export default function ProductDetail() {
             </m.div>
           </Stack>
         </Stack>
-      </MotionContainer>
+        <m.div variants={varFlip().inX}>
+          <Box sx={{position: 'absolute', right: '16px', top: '24px'}}>
+            <IconButton onClick={() => navigate(-1)}>
+              <Iconify icon={'akar-icons:arrow-back-thick'} color="#FF48B6" width={20} height={20} />
+            </IconButton>
+          </Box>
+        </m.div>
+      </MotionViewport>
     </Page>
   );
 }

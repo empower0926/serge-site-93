@@ -47,6 +47,18 @@ const SliderStyle = styled(Slider)({
     a: {
       visibility: 'visible',
     },
+    '.nameBox': {
+      opacity: 0,
+    },
+  },
+  '& .nameBox': {
+    position: 'absolute',
+    left: '0',
+    bottom: '20px',
+    width: '100%',
+    textAlign: 'center',
+    textTransform: 'uppercase',
+    transition: 'opacity ease 300ms',
   },
 });
 const StackStyle = styled(Stack)({
@@ -95,6 +107,7 @@ CollectionSlide.propTypes = {
   src: PropTypes.array,
 };
 export default function CollectionSlide(props) {
+  const { title, bgColor, data } = props;
   const isMobile = useMediaQuery('(max-width: 576px)');
   const isTablet = useMediaQuery('(max-width: 750px)');
   const isLaptop = useMediaQuery('(max-width: 990px)');
@@ -102,28 +115,34 @@ export default function CollectionSlide(props) {
     infinite: true,
     speed: 1000,
     autoplay: true,
-    slidesToShow: isMobile? 1 : isTablet?2:isLaptop?3:4,
-    slidesToScroll: isMobile? 1 : isTablet?2:isLaptop?3:4,
+    slidesToShow: isMobile ? 1 : isTablet ? 2 : isLaptop ? 3 : 4,
+    slidesToScroll: isMobile ? 1 : isTablet ? 2 : isLaptop ? 3 : 4,
   };
   const { translate } = useLocales();
   const text = '/productdetail/';
   const dash = '/';
   return (
-    <Box sx={{ background: props.bgColor, py: '80px', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <Box sx={{ background: bgColor, py: '80px', backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <MotionContainer>
         <Box>
           <m.div variants={varFade().inUp}>
-            <Typography component="h3" variant="h2" textAlign="center" sx={{ mb: '80px', fontWeight: 'lighter' }}>
-              {translate(props.title)}
+            <Typography
+              component="h2"
+              variant="h2"
+              color="#fff"
+              textAlign="center"
+              sx={{ mb: '80px', fontWeight: 'bold', fontFamily: 'Aileron' }}
+            >
+              {translate(title)}
             </Typography>
           </m.div>
         </Box>
         <SliderStyle {...settings} sx={{ maxWidth: '1200px', mx: 'auto' }}>
-          {props.src.map((src, index) => (
+          {data.map((data, index) => (
             <Box key={index} sx={{ px: '8px' }}>
               <Box sx={{ background: '#E9E8E4', position: 'relative' }}>
                 {/* <Link to={`${text}${props.title}${dash}${index}`} component={RouterLink}> */}
-                <Img src={src} alt="img1" />
+                <Img src={data.path} alt="img1" />
                 {/* </Link> */}
                 <QuickBoxStyle>
                   <ButtonStyle variant="outlined" href={`${text}${props.title}${dash}${index}`}>
@@ -138,6 +157,11 @@ export default function CollectionSlide(props) {
                     {translate('ADVISOR_DST')}
                   </ButtonStyle>
                 </StackStyle>
+                <Box className="nameBox">
+                  {translate(data.name)}
+                  <br />
+                  CBD
+                </Box>
               </Box>
             </Box>
           ))}

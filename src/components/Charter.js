@@ -31,22 +31,11 @@ export default function Charter({ text }) {
           sx={{ minHeight: '130px', width: '100%', opacity: '0.8' }}
         />
         <Box>
-          {typeof text === 'string' ? (
-            <m.div variants={varFade().inUp}>
-              <Typography variant="h2" component="h2" noWrap sx={{ color: '#fff' }}>
-                {translate(text)}
-              </Typography>
-            </m.div>
-          ) : (
-            <m.div variants={varFade().inUp}>
-              <Typography variant="h2" component="h2" noWrap sx={{ color: '#00AB55' }}>
-                {translate(text[0])}
-              </Typography>
-              <Typography variant="h2" component="h2" noWrap sx={{ color: '#fff' }}>
-                {translate(text[1])}
-              </Typography>
-            </m.div>
-          )}
+          <m.div variants={varFade().inUp}>
+            <Typography variant="h2" component="h2" sx={{ color: '#fff', textTransform: 'uppercase' }}>
+              {translate(text)}
+            </Typography>
+          </m.div>
         </Box>
       </RelativeDivStyle>
     </MotionContainer>

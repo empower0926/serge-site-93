@@ -17,14 +17,14 @@ const en = {
   INDEX: 'INDEX',
   LANDING_HEADER_TEXT: 'GREENSENSITIVE, A PALETTE OF EXPERIENCES AROUND WELLNESS.',
   BODY: 'BODY',
-  BODY_COLLECTIVE: 'BODY COLLECTIVE',
+  BODY_COLLECTION: 'Body Collection',
   FOOD: 'FOOD',
-  FOOD_COLLECTIVE: 'FOOD COLLECTIVE',
+  FOOD_COLLECTION: 'Food Collection',
   OIL: 'OIL',
-  OIL_COLLECTIVE: 'OIL COLLECTIVE',
+  OIL_COLLECTION: 'Oil Collection',
   FLOWER: 'FLOWER',
   QUICK_VIEW: 'QUICK VIEW',
-  FLOWER_COLLECTIVE: 'FLOWER COLLECTIVE',
+  FLOWER_COLLECTION: 'Flower Collection',
   FOOTER_TEXT1: `© Ollorun 2022 All rights reserved`,
   FOOTER_TEXT2: `OLLORUN Network Limited (Company Number 12660658) is owned by SAPIAN GROUP/FLASH GROUP.`,
   // body
@@ -270,6 +270,191 @@ const en = {
   marketed.`,
   Trim: `Trim`,
   Trim_CONTENT: `It is a mixture of small flowers and fragments of hemp.`,
+  // mag
+  READ_MORE: 'READ MORE',
+  headertitle1: `About CBD infusion`,
+  title1: `All you need to know about CBD infusion`,
+  content1: `Infusing hemp is the healthiest way to use hemp flowers directly. Contrary to popular
+  belief, you can buy hemp flowers without smoking them. In fact, this is prohibited by law.
+  So, today, we propose you to discover the hemp flower, but also the resin and the pollen in
+  the form of infusion.<br/><br />
+  Thanks to its infusion, hemp shares all the benefits of its molecules, including CBD. You can
+  therefore enjoy these benefits without all the undesirable effects of inhalation. We invite
+  you to discover all the benefits of these infusions, as well as how to prepare them!<br /><br />
+  <b>The actions of the infusion</b><br /><br />
+  As in all its other forms, the intake of hemp has multiple effects that will accompany you
+  according to your needs for wellness. When you enjoy a hemp infusion, the cannabinoids
+  in the plant act and activate certain receptors in your body. These receptors are naturally
+  present and are responsible for what is called homeostasis. This is the balance of different
+  body functions, such as sleep quality, ability to deal with stress, inflammatory factors,
+  muscle recovery and many others. These cannabinoids, which are molecules that CBD is
+  part of, activate the receptors and kick-start this process that is naturally present in your
+  body. In a way, it's like giving extra support to restart a mechanism that has become a little
+  rusty and harder to start.<br /><br />
+  To enjoy the benefits of hemp flowers, pollen or rocks, infusion is a very gentle and
+  pleasant way. Moreover, it will meet the needs of those who like to prepare their own
+  grandmotherly recipes. Today, it's Greensensitive's turn to share her recipe with you!<br /><br />
+  <b>Preparing my hemp infusion</b><br /><br />
+  First of all, it is important to note that this recipe is essential to benefit from the effects of
+  hemp. Indeed, its molecules are not water-soluble. They need a fatty substance to allow its
+  dissolution and thus its absorption.<br /><br />
+  You will need three ingredients: boiling water (as for any good infusion!), hemp (in the form
+  of flowers, resin or rock), a fat (honey, butter, vegetable oil, cream or milk) and as an
+  option, you can also add a tea/tea bag of your choice!<br /><br/>
+  Then, 4 steps of preparation await you:<br /><br />
+  1. Bring a pot of one litre of water to the boil.<br /><br/>
+  2. Add the fat of your choice to the water.<br /><br/>
+  3. Crumble your hemp flowers, resin or rock before putting them in a tea strainer and
+  then in boiling water.<br /><br />
+  4. Leave to infuse for at least 15 minutes, and then just enjoy!`,
+  headertitle2: `Cook your hemp`,
+  title2: `Did you know that you could cook your hemp?`,
+  content2: `Infusing hemp is quite common. Cooking with hemp is yet another door open to a lot of
+  curiosities and experiences. Today, we decided to share with you everything about cooking
+  with hemp!<br /><br />
+  While hemp cake may have, for some, a direct link to what is known as "space cake", think
+  again! Hemp, as in all its forms, has no psychoactive effects. You can enjoy its beneficial
+  effects in your best chocolate cake. So, if you love baking or any other dish, this article is for
+  you.<br /><br />
+  <b>Why should I use hemp in my recipes?</b><br /><br />
+  Cooking hemp allows it to be consumed without having to burn it. Thus, it is a very healthy
+  way to use it for the body. You will only enjoy all the benefits of this plant.<br /><br />
+  The rather earthy taste of this plant is combined with the ingredients you like best. This
+  provides an alternative, especially for people who do not like the taste of hemp oil. When
+  used in the right conditions, cooked hemp provides all the benefits that are also present in
+  the form of oil. Only, the respect of the recipes is necessary to allow a good absorption by
+  the body of its active elements. Here, we are thinking in particular of the CBD that is inside
+  this plant.<br /><br />
+  In addition to the already well-known benefits of CBD, it is interesting to note the presence
+  of twenty amino acids that are also part of the proper functioning of our body. Like CBD,
+  the contribution of these amino acids by hemp allows the reactivation of the physiological
+  functions naturally present in the body. Hemp also reveals the presence of vitamins B1, B2,
+  B3, B6, B9, vitamin E, calcium, potassium, phosphorus, magnesium, copper, iron, zinc and
+  manganese.<br /><br />
+  How do I prepare my hemp recipe?<br /><br />
+  The possibilities, as with many ingredients in the kitchen, are many with hemp. Our goal is
+  to share with you the key tips to succeed in your recipes and enjoy the benefits of hemp in
+  the best way.<br /><br />
+  As for the number of hemp ingredients to include in a recipe, this is very personal. Just as
+  no two people will use the same number of drops of hemp oil, no two recipes will have the
+  same hemp content. It is advisable to make your first recipes with a low hemp content.
+  This will allow you to adapt the dosage to your taste and needs. Starting with 15 mg seems
+  correct. It can then go up to 60 mg, when you are used to hemp.<br /><br />
+  When incorporating hemp, here are the key tips for successful recipes :<br /><br />
+  1. Beware of the temperature: the active ingredients of hemp do not tolerate high
+  temperatures. Therefore, when using hemp in dishes, always add it at the end of
+  cooking when all the ingredients are well cooked. For baking, as for cakes, do not
+  exceed a temperature of 320/350°.<br /><br />
+  2. If you use hemp oil in your recipes, always remember to mix it with another oil.
+  Indeed, the active ingredients of hemp are not water-soluble. This mixture will
+  allow a better diffusion and thus absorption by your body.3. For salads, the oil can be used, integrated into the seasoning, while their flowers
+  and resin can be crumbled for decoration.<br /><br />
+  <b>En conclusion</b><br /><br />
+  Hemp can be used in different ways in cooking: as oil, flower, resin or rock. In this way of
+  consumption, hemp should be seen more as a superfood. Indeed, consuming hemp, and
+  consequently its active ingredients such as CBD, in food will attenuate their action on the
+  endocannabinoid receptors, naturally present in the body. For more consistent effects,
+  prefer to consume it as an infusion (flower, resin and rock) or as oil (in our Oil Collection).<br /><br />
+  Finally, when cooking with hemp, it is important to leave the details of the kitchen to
+  experiment and test. Be free to make your own choices and taste hemp in different ways.
+  Share your good food on social networks! #Greensensitive`,
+  headertitle3: `Indoor and Greenhouse`,
+  title3: `Indoor, Greenhouse, what's the difference?`,
+  content3: `You may have already noticed that the Flower Collection from Greensensitive offers the
+  words "Indoor" or "Greenhouse" for each flavour. These are important elements that
+  characterise the way hemp is produced before it is offered as flowers, resins or rocks. It is
+  therefore important to understand the interests of each production method in order to
+  make the best choice.<br /><br />
+  Traditionally, hemp was grown outdoors like many other plants. However, technical and
+  technological developments have led to new methods of improving the quality of the
+  plant.<br /><br />
+  <b>What is indoor production?<b><br /><br />
+  Indoor production is a completely indoor planting method. Hemp is grown in completely
+  isolated spaces. This allows total control of the production and therefore of the various
+  characteristics required by the plant. The grower manages the humidity, light, nutrients,
+  pH and ventilation. This is a complete management system that avoids external risks, such
+  as weather or parasites. The advantage is also the higher yield, as production is not
+  dependent on seasonality. In addition, the hemp varieties can be further selected, which
+  brings optimal quality, but also new species. These varieties can then be almost THC-free
+  while the cannabinoid content is enriched.<br /><br />
+  Finally, indoor production creates an optimal environment for consistent quality hemp
+  production.<br /><br />
+  <b>What is Greenhouse production?<b><br /><br />
+  Greenhouse production is again named after its mode of production. It is a plant that is
+  grown in a greenhouse. It shares many of the same advantages as indoor production, since
+  the grower can protect his plants from the weather and cold in the same way. However,
+  this method of production has an additional advantage in that the plants are grown in the
+  open ground and natural light is used. The natural light, by its intermittent presence,
+  allows the hemp to grow more actively. It is a clever combination of indoor and outdoor
+  planting.<br /><br />
+  Producing Greenhouse hemp is ultimately about reproducing an optimal space for hemp in
+  a way that is closer to its usual environment. This ensures the quality of the hemp, but also
+  the control over the plant.<br /><br />
+  <b>Finally, which production to choose?<b><br /><br />
+  As you can see, Greensensitive offers both production methods. Our goal is to offer you a
+  choice. Indeed, each of these production methods has its advantages and disadvantages.
+  So we suggest that you learn about their characteristics in order to choose your flower,
+  your resin or your rock.<br /><br />
+  As for the "Greenhouse" plant, it has the advantage of being more respectful of the
+  environment because no electricity is needed for artificial lamps. However, indoor
+  cultivation allows for more precise management of the plant and therefore a higher
+  quality. We leave it to you to select the product that suits you best!`,
+  headertitle4: `Choose my hemp oil`,
+  title4: `Choose my hemp oil`,
+  content4: `On the hemp market, there are a lot of different oils. It is sometimes difficult to know which oil is best for
+  you and which is of good quality. We would like to introduce you to the 3 main pillars for optimal hemp
+  quality and give you some tips on how to make your choice.<br /><br />
+  <b>The three pillars of quality hemp</b><br /><br />
+  The method of planting<br /><br />
+  All hemp in the Greensensitive collections is produced in an indoor or greenhouse environment. This
+  means that the plants have been harvested indoors or in a greenhouse. Both methods of plant cultivation
+  have their advantages. For more information, please read the article "Indoor, Greenhouse, what's the
+  difference?<br /><br />
+  The method of extraction<br /><br />
+  Once the hemp flower has reached its ideal size, it is cultivated by hand because it is very fragile. It is then
+  dried. All this is a real goldsmith's job, because of the meticulousness that it requires. For the oils, an
+  extraction process is then carried out. At Greensensitive, this is the supercritical CO2 extraction. This uses
+  very low temperatures, which preserves the quality of the molecules and produces an oil known as 'full
+  spectrum'. CO2 also avoids any trace of solvents.<br /><br />
+  Bioavailability<br /><br />
+  Let's remember that CBD, short for "cannabidiol", is one of the molecules present in hemp. However, it is
+  not alone in the plant. To be active, it needs what we call the entourage effect. It can only be fully active
+  when it is accompanied by all the molecules of the hemp plant. On the market, many products only
+  mention "CBD" or "CBD oil". However, these are isolates with only this molecule. The beneficial effect on
+  the body is therefore limited.<br /><br />
+  Let's make a comparison: Calcium is highly recommended for the health of our bones. However, it is often
+  forgotten that it also needs a kind of surrounding effect. Without vitamin D, provided by the sun, calcium
+  does not bind in the body. This is the same process as for CBD. This is why Greensensitive has chosen to
+  offer exclusively "full spectrum" products. The presence of all these molecules allows for a greater
+  efficiency.<br /><br />
+  <b>Tips for choosing your hemp oil</b><br /><br />
+  Finding the ideal percentage of CBD<br /><br />
+  First of all, it is important to note that each person is different and has a more or less active
+  endocannabinoid system. Thus, the need for CBD and other cannabinoids may vary from one person to
+  another, even if the search for wellness is the same. Therefore, it is always recommended to start with
+  small dosages and to increase if necessary, depending on the effects obtained. Note here that you will
+  never take too much hemp. If you use more oil than recommended, your body will simply eliminate, by
+  natural means, the surplus that the receptors cannot accommodate. Indeed, you can see these receptors
+  as containers which, if they are already filled to the maximum, will let out what is not usable.<br /><br />
+  In terms of percentage, it is possible to consider 3 main categories: light dosage (5% and 10%), medium
+  (20% and 30%) and high (50%). To determine the number of drops per day, according to your needs andyour morphology, we invite you to refer to the technical sheets available from the person who
+  recommended the Greensensitive brand to you.<br /><br />
+  Choose the composition of my oil<br /><br />
+  Several types of oil exist. At greensensitive, we suggest you discover the strength of the "Full spectrum"
+  which allows you to benefit from all the molecules present in hemp. You will find CBD, but also CBN and
+  CBG. These last two examples are also highlighted in two of our products to act particularly on anxiety
+  and sleep! Each molecule has its own particularities and advantages. They reveal their capacities thanks
+  to an MCT oil base present in our entire "Oil Collection" range. The advantage of this oil is that its
+  digestion does not require the action of the pancreas and the gall bladder. It is therefore absorbed very
+  high in the intestine. This allows for better assimilation by the body. After all, the body consists largely of
+  water. Since oil and water do not mix, it is important to ensure good absorption. MCT oil makes this
+  possible.<br /><br />
+  How to use my hemp oil<br /><br />
+  Greensensitive Hemp Oils are available in vials with a dropper. This will allow you to calculate the number
+  of drops per day and to be regular. The best use is sublingual, under the tongue. This is an area with a lot
+  of blood vessels. They capture the hemp molecules and allow them to act more quickly. It is
+  recommended to wait between 30 and 60 seconds before swallowing to make it even more effective! It is
+  also possible to add your hemp oil to a drink or food. Once again, hemp-based products give you the
+  freedom to choose how to use them, according to your tastes and desires!`,
 };
-
 export default en;
