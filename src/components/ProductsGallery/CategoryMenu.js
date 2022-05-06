@@ -21,7 +21,7 @@ const StyledMenu = styled((props) => (
 ))(({ theme }) => ({
   padding: '0',
   '& li': {
-    fontSize: '20px',
+    fontSize: '18px',
     transition: 'all ease 300ms',
   },
   '& li:hover': {

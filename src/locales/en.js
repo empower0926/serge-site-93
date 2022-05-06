@@ -118,19 +118,19 @@ const en = {
   Hemp_oil_10: `Hemp oil 10%`,
   Hemp_oil_10_DESC: `The MCT oil, associated with hemp, ensures an optimal absorption of the benefits of the plant. This oil
   will bring you comfort and well-being. True Swiss Army knife, it will be able to answer many needs with
-  the daily newspaper.`,
+  the daily.`,
   Hemp_oil_20: `Hemp oil 20%`,
   Hemp_oil_20_DESC: `The MCT oil, associated with hemp, ensures an optimal absorption of the benefits of the plant. This oil
   will bring you comfort and well-being. True Swiss Army knife, it will be able to answer many needs with
-  the daily newspaper.`,
+  the daily.`,
   Hemp_oil_30: `Hemp oil 30%`,
   Hemp_oil_30_DESC: `The MCT oil, associated with hemp, ensures an optimal absorption of the benefits of the plant. This oil
   will bring you comfort and well-being. True Swiss Army knife, it will be able to answer many needs with
-  the daily newspaper.`,
+  the daily.`,
   Hemp_oil_50: `Hemp oil 50%`,
   Hemp_oil_50_DESC: `The MCT oil, associated with hemp, ensures an optimal absorption of the benefits of the plant. This oil
   will bring you comfort and well-being. True Swiss Army knife, it will be able to answer many needs with
-  the daily newspaper.`,
+  the daily.`,
   CBG_CBD_Elixir: `CBG/CBD Elixir`,
   CBG_CBD_Elixir_DESC: `Known for its numerous soothing virtues, CBD finds in this oil a very effective partner: CBG. Also coming
   from hemp, its presence will allow you to target inflammations and anxieties. A great ally for your daily

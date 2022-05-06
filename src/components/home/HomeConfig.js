@@ -1,4 +1,3 @@
-
 const HomeConfig = [
   {
     title: 'BODY_COLLECTION',
@@ -131,31 +130,31 @@ const HomeConfig = [
         path: '/assets/images/FOOD_COLLECTION/1.png',
       },
       {
-        name: 'Strawberry_Dragon_Fruit_Drink',
+        name: 'Raspberry_Gummies',
         path: '/assets/images/FOOD_COLLECTION/2.png',
       },
       {
-        name: 'Raspberry_Gummies',
+        name: 'Gummies_Peach',
         path: '/assets/images/FOOD_COLLECTION/3.png',
       },
       {
-        name: 'Mango_pineapple_drink',
+        name: 'APPLE_GUMMIES',
         path: '/assets/images/FOOD_COLLECTION/4.png',
       },
       {
-        name: 'Lemon_Lime_Drink',
+        name: 'Chocolate_brownie',
         path: '/assets/images/FOOD_COLLECTION/5.png',
       },
       {
-        name: 'Peach_tea_drink',
+        name: 'Chocolate_chip_cookie',
         path: '/assets/images/FOOD_COLLECTION/6.png',
       },
       {
-        name: 'APPLE_GUMMIES',
+        name: 'Almond_crunchies',
         path: '/assets/images/FOOD_COLLECTION/7.png',
       },
       {
-        name: 'Apple_kiwi_drink',
+        name: 'Vanilla_shortbread',
         path: '/assets/images/FOOD_COLLECTION/8.png',
       },
       {
@@ -163,23 +162,23 @@ const HomeConfig = [
         path: '/assets/images/FOOD_COLLECTION/9.png',
       },
       {
-        name: 'Gummies_Peach',
+        name: 'Peach_tea_drink',
         path: '/assets/images/FOOD_COLLECTION/10.png',
       },
       {
-        name: 'Chocolate_brownie',
+        name: 'Strawberry_Dragon_Fruit_Drink',
         path: '/assets/images/FOOD_COLLECTION/11.png',
       },
       {
-        name: 'Chocolate_chip_cookie',
+        name: 'Lemon_Lime_Drink',
         path: '/assets/images/FOOD_COLLECTION/12.png',
       },
       {
-        name: 'Almond_crunchies',
+        name: 'Apple_kiwi_drink',
         path: '/assets/images/FOOD_COLLECTION/13.png',
       },
       {
-        name: 'Vanilla_shortbread',
+        name: 'Mango_pineapple_drink',
         path: '/assets/images/FOOD_COLLECTION/14.png',
       },
     ],

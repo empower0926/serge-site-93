@@ -57,7 +57,8 @@ const SliderStyle = styled(Slider)({
     bottom: '20px',
     width: '100%',
     textAlign: 'center',
-    textTransform: 'uppercase',
+    fontSize: '14px',
+    textTransform: 'capitalize',
     transition: 'opacity ease 300ms',
   },
 });

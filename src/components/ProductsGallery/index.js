@@ -19,7 +19,7 @@ export default function ProductsGallery(props) {
           {HomeConfig.map((e) =>
             e.title === filterText
               ? e.data.map((item, index) => (
-                  <Grid key={index} item xs={3} padding={1}>
+                  <Grid key={index} item sm={6} md={4} lg={3} padding={1}>
                     <Product index={index} title={filterText} name={item.name} path={item.path}></Product>
                   </Grid>
                 ))
