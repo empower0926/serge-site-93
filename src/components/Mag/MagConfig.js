@@ -18,7 +18,7 @@ const MagConfig = [
     headertitle: `headertitle3`,
     title: `title3`,
     imagepath: `/assets/images/other/mag3.png`,
-    content: `content1`,
+    content: `content3`,
   },
   {
     magnum: '4',

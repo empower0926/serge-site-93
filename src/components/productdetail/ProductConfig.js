@@ -186,6 +186,21 @@ const ProductConfig = [
         description: 'Triple_O_DESC',
         path: '/assets/images/FLOWER_COLLECTION/13.png',
       },
+      {
+        title: 'Trim_Amnesia',
+        description: 'Trim_Amnesia_DESC',
+        path: '/assets/images/FLOWER_COLLECTION/14.png',
+      },
+      {
+        title: 'Cannatonic',
+        description: 'Cannatonic_DESC',
+        path: '/assets/images/FLOWER_COLLECTION/15.png',
+      },
+      {
+        title: 'Strawberry_Milkshake',
+        description: 'Strawberry_Milkshake_DESC',
+        path: '/assets/images/FLOWER_COLLECTION/16.png',
+      },
     ],
   },
   {

@@ -12,11 +12,10 @@ const settings = {
   slidesToScroll: 1,
 };
 const imgSrcs = [
-  '/assets/images/HeroCaro/1.jpg',
-  '/assets/images/HeroCaro/2.jpg',
-  '/assets/images/HeroCaro/3.jpg',
-  '/assets/images/HeroCaro/4.jpg',
-  '/assets/images/HeroCaro/5.jpg',
+  '/assets/images/HeroCaro/7.jpg',
+  '/assets/images/HeroCaro/8.jpg',
+  '/assets/images/HeroCaro/9.jpg',
+  '/assets/images/HeroCaro/10.jpg',
 ];
 const Img = styled('img')({
   height: 'auto',

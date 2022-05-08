@@ -114,6 +114,12 @@ const en = {
   Suprême_DESC: `Discover these earthy and deep flavors typical of this plant, by its bitter side.`,
   Triple_O: `Resin (Greenhouse)  \n  Triple O`,
   Triple_O_DESC: `A combination of floral and spicy flavors, this resin will satisfy great gourmets!`,
+  Trim_Amnesia:`Trim (Indoor) Amnesia`,
+  Trim_Amnesia_DESC:`L’amertume et la saveur torréfiée de cette trim liées à des notes de sésame saura vous surprendre agréablement.`,
+  Cannatonic:`Trim (Greendoor +) Cannatonic`,
+  Cannatonic_DESC:`Découvrez les douces saveurs fruitées et exotiques du Cannatonic !`,
+  Strawberry_Milkshake:`Trim (Greendoor classique) Strawberry Milkshake`,
+  Strawberry_Milkshake_DESC:`Découvrez la douceur des saveurs sucrées de cette trim, alliées aux notes de baies.`,
   // oil
   Hemp_oil_10: `Hemp oil 10%`,
   Hemp_oil_10_DESC: `The MCT oil, associated with hemp, ensures an optimal absorption of the benefits of the plant. This oil
@@ -174,27 +180,27 @@ const en = {
   and faster effect thanks to the numerous blood vessels present in this part
   of the mouth.`,
   How_to_use_hemp_pollen: `How to use hemp pollen?`,
-  How_to_use_hemp_pollen_ANS: `Hemp pollen, also called resin, can be used in two different ways: \n in infusion: let it infuse for 10 minutes with a fatty substance such as oil or
+  How_to_use_hemp_pollen_ANS: `Hemp pollen, also called resin, can be used in two different ways: <br /><br /> in infusion: let it infuse for 10 minutes with a fatty substance such as oil or
   soy milk. This allows the dissolution of hemp which in its usual state is not
-  water-soluble. \n In cooking: to integrate in your best recipes.`,
+  water-soluble. <br /> In cooking: to integrate in your best recipes.`,
   How_to_use_hemp_rock: `How to use hemp rock?`,
-  How_to_use_hemp_rock_ANS: `Hemp rock can be used in two different ways: \n\n  In infusion: let it infuse for 10 minutes with a fatty substance such as oil or
+  How_to_use_hemp_rock_ANS: `Hemp rock can be used in two different ways: <br /><br />  In infusion: let it infuse for 10 minutes with a fatty substance such as oil or
   soy milk. This allows the dissolution of hemp which in its usual state is not
-  water-soluble \n In cooking: to integrate in your best recipes.`,
+  water-soluble <br /> In cooking: to integrate in your best recipes.`,
   How_to_use_hemp_flower: `How to use hemp flower?`,
-  How_to_use_hemp_flower_ANS: `Hemp flower can be used in two different ways: \n\n  In infusion: let it infuse for 10 minutes with a fatty substance such as oil or
+  How_to_use_hemp_flower_ANS: `Hemp flower can be used in two different ways: <br /><br />  In infusion: let it infuse for 10 minutes with a fatty substance such as oil or
   soy milk. This allows the dissolution of hemp which in its usual state is not
-  water-soluble. \n In cooking: to integrate in your best recipes.`,
+  water-soluble. <br /> In cooking: to integrate in your best recipes.`,
   In_which_cases_the_consumption_of_hemp_is_not_recommended: `In which cases the consumption of hemp is not recommended?`,
   // about
-  ABOUT_TEXT1: `As a hemp specialist, Greensensitive offers four product collections. A range of experiences that meet all
+  ABOUT_TEXT: `As a hemp specialist, Greensensitive offers four product collections. A range of experiences that meet all
   expectations, from the well-being of oils to the lifestyle of sweets. These different ranges aim to provide
   quality in terms of product, choice and accompaniment. Hemp is a plant whose knowledge is still in its
   infancy. Greensensitive wishes to share with you all its experience and knowledge, while asserting itself
   through the novelty and dynamism of the hemp world. Learn and understand in order to choose your
-  wellness.`,
-  ABOUT_TEXT2: `Greensensitive by Ollorun Care`,
-  ABOUT_TEXT3: `Greensensitive is part of the Ollorun Network, one of whose engagements is the development of wellness
+  wellness.<br /><br />
+  Greensensitive by Ollorun Care<br /><br />
+  Greensensitive is part of the Ollorun Network, one of whose engagements is the development of wellness
   areas. This Network forges the link with a hybrid sales network, thought between the societal model and
   the relational marketing`,
   OUR_OFFERS: 'OUR OFFERS',
@@ -347,7 +353,7 @@ const en = {
   exceed a temperature of 320/350°.<br /><br />
   2. If you use hemp oil in your recipes, always remember to mix it with another oil.
   Indeed, the active ingredients of hemp are not water-soluble. This mixture will
-  allow a better diffusion and thus absorption by your body.3. For salads, the oil can be used, integrated into the seasoning, while their flowers
+  allow a better diffusion and thus absorption by your body.<br /><br />3. For salads, the oil can be used, integrated into the seasoning, while their flowers
   and resin can be crumbled for decoration.<br /><br />
   <b>En conclusion</b><br /><br />
   Hemp can be used in different ways in cooking: as oil, flower, resin or rock. In this way of
@@ -368,7 +374,7 @@ const en = {
   Traditionally, hemp was grown outdoors like many other plants. However, technical and
   technological developments have led to new methods of improving the quality of the
   plant.<br /><br />
-  <b>What is indoor production?<b><br /><br />
+  <b>What is indoor production?</b><br /><br />
   Indoor production is a completely indoor planting method. Hemp is grown in completely
   isolated spaces. This allows total control of the production and therefore of the various
   characteristics required by the plant. The grower manages the humidity, light, nutrients,
@@ -379,7 +385,7 @@ const en = {
   while the cannabinoid content is enriched.<br /><br />
   Finally, indoor production creates an optimal environment for consistent quality hemp
   production.<br /><br />
-  <b>What is Greenhouse production?<b><br /><br />
+  <b>What is Greenhouse production?</b><br /><br />
   Greenhouse production is again named after its mode of production. It is a plant that is
   grown in a greenhouse. It shares many of the same advantages as indoor production, since
   the grower can protect his plants from the weather and cold in the same way. However,
@@ -390,7 +396,7 @@ const en = {
   Producing Greenhouse hemp is ultimately about reproducing an optimal space for hemp in
   a way that is closer to its usual environment. This ensures the quality of the hemp, but also
   the control over the plant.<br /><br />
-  <b>Finally, which production to choose?<b><br /><br />
+  <b>Finally, which production to choose?</b><br /><br />
   As you can see, Greensensitive offers both production methods. Our goal is to offer you a
   choice. Indeed, each of these production methods has its advantages and disadvantages.
   So we suggest that you learn about their characteristics in order to choose your flower,

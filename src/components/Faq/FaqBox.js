@@ -9,7 +9,6 @@ import useLocales from '../../hooks/useLocales';
 import FrqConfig from './FaqConfig';
 
 const Accordion = styled((props) => <MuiAccordion disableGutters elevation={0} square {...props} />)(({ theme }) => ({
-  borderLeft: `6px solid #2B82BA`,
   borderRadius: '8px',
   '&:not(:last-child)': {
     borderBottom: 0,
@@ -24,7 +23,6 @@ const Accordion = styled((props) => <MuiAccordion disableGutters elevation={0} s
 const AccordionSummary = styled((props) => (
   <MuiAccordionSummary expandIcon={<ArrowForwardIosSharpIcon sx={{ fontSize: '0.9rem' }} />} {...props} />
 ))(({ theme }) => ({
-  backgroundColor: 'rgba(43, 130, 186, 0.14)',
   flexDirection: 'row-reverse',
   '& .MuiAccordionSummary-expandIconWrapper.Mui-expanded': {
     transform: 'rotate(90deg)',
@@ -36,7 +34,7 @@ const AccordionSummary = styled((props) => (
 
 const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   padding: theme.spacing(2),
-  borderTop: '1px solid rgba(0, 0, 0, .125)',
+  // borderTop: '1px solid rgba(0, 0, 0, .125)',
 }));
 
 export default function CustomizedAccordions() {
@@ -60,23 +58,26 @@ export default function CustomizedAccordions() {
           <AccordionSummary
             aria-controls={text + Number(index + 1) + text2}
             id={text + Number(index + 1) + text1}
-            sx={{ py: 2 }}
+            sx={{ py: 2, backgroundColor: `${e.bgColor}`, borderLeft: `6px solid ${e.color}` }}
           >
             <Typography variant="h4" component="h4" sx={{ fontWeight: 'lighter' }}>
               {translate(e.quiz)}
             </Typography>
           </AccordionSummary>
-          <AccordionDetails>
+          <AccordionDetails sx={{backgroundColor: `${e.bgColor}`,borderLeft: `6px solid ${e.color}`}}>
             {index !== 8 ? (
               <Typography
                 variant="p"
                 component="p"
                 sx={{ whiteSpace: `${index === 7 || index === 6 ? 'pre-line' : ''}`, fontWeight: 'lighter' }}
-              >
-                {translate(e.answere)}
-              </Typography>
+                dangerouslySetInnerHTML={{__html: translate(e.answere)}}
+              />
             ) : (
-              <Box component="img" src="/assets/images/other/warning.png" sx={{width: '600px',maxWidth:'100%', mx: 'auto'}}/>
+              <Box
+                component="img"
+                src="/assets/images/other/warning.png"
+                sx={{ width: '600px', maxWidth: '100%', mx: 'auto' }}
+              />
             )}
           </AccordionDetails>
         </Accordion>

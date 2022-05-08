@@ -43,23 +43,9 @@ export default function About() {
           </Grid>
           <Grid item md={6}>
             <m.div variants={varFade().inRight}>
-              <Typography variant="body1" component="p">
-                {translate('ABOUT_TEXT1')}
-              </Typography>
+              <Typography variant="body1" component="p" dangerouslySetInnerHTML={{__html: translate('ABOUT_TEXT')}} />
             </m.div>
-            <br />
-            <m.div variants={varFade().inRight}>
-              <Typography variant="body1" component="p">
-                {translate('ABOUT_TEXT2')}
-              </Typography>
-            </m.div>
-            <br />
-            <m.div variants={varFade().inRight}>
-              <Typography variant="body1" component="p">
-                {translate('ABOUT_TEXT3')}
-              </Typography>
-            </m.div>
-          </Grid>
+           </Grid>
         </Grid>
         <Box sx={{ mt: 5 }}>
           <m.div variants={varFade().inUp}>

@@ -89,6 +89,18 @@ const HomeConfig = [
         name: 'Triple O',
         path: '/assets/images/FLOWER_COLLECTION/13.png',
       },
+      {
+        name: 'Trim (Indoor) Amnesia',
+        path: '/assets/images/FLOWER_COLLECTION/14.png',
+      },
+      {
+        name: 'Cannatonic',
+        path: '/assets/images/FLOWER_COLLECTION/15.png',
+      },
+      {
+        name: 'Strawberry Milkshake',
+        path: '/assets/images/FLOWER_COLLECTION/16.png',
+      },
     ],
   },
   {
