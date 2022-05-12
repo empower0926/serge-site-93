@@ -1,11 +1,17 @@
+import ProtoTypes from 'prop-types';
 import { m } from 'framer-motion';
 import { Typography, Stack, Box } from '@mui/material';
-import Logo from '../Logo';
 import { varFade } from '../animate';
 import useLocales from '../../hooks/useLocales';
 
+MagCard.propTypes = {
+  magnum: ProtoTypes.number,
+  headertitle: ProtoTypes.string,
+  title: ProtoTypes.string,
+  imagepath: ProtoTypes.string,
+};
 export default function MagCard(props) {
-  const { magnum, headertitle, title, imagepath, content } = props;
+  const { magnum, headertitle, title, imagepath } = props;
   const { translate } = useLocales();
   const path = '/mag/magdetail/';
   return (
@@ -27,7 +33,7 @@ export default function MagCard(props) {
           <Box sx={{ height: '48px', overflow: 'hidden' }}>
             <Typography>{translate(title)}</Typography>
           </Box>
-          <Box component="a" href={path+magnum} display="flex" justifyContent="center" my={2}>
+          <Box component="a" href={path + magnum} display="flex" justifyContent="center" my={2}>
             <Typography sx={{ color: '#FF48B6' }}>{translate('READ MORE')}</Typography>
           </Box>
         </Box>

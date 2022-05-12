@@ -2,7 +2,6 @@ import { m } from 'framer-motion';
 import { Box, Container, Grid, Typography } from '@mui/material';
 import useLocales from '../../hooks/useLocales';
 import { MotionViewport, varFade, varFlip } from '../animate';
-import Logo from '../Logo';
 import BotImgCard from './BotImgCard';
 
 export default function About() {

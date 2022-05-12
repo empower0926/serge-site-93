@@ -17,9 +17,7 @@ ListItem.propTypes = {
 
 NavItemRoot.propTypes = {
   active: PropTypes.bool,
-  open: PropTypes.bool,
   isCollapse: PropTypes.bool,
-  onOpen: PropTypes.func,
   item: PropTypes.shape({
     children: PropTypes.array,
     icon: PropTypes.any,
@@ -32,16 +30,12 @@ NavItemRoot.propTypes = {
   }),
 };
 // ========================fix here===================================================
-export function NavItemRoot({ item, isCollapse, open = false, active, onOpen }) {
-  const { title, path, icon, info, children, disabled, caption, roles } = item;
+export function NavItemRoot({ item, isCollapse, active }) {
+  const { title, path, disabled, roles } = item;
   const { translate } = useLocales();
   const renderContent = (
     <>
-      <ListItemTextStyle
-        disableTypography
-        primary={translate(title)}
-        isCollapse={isCollapse}
-      />
+      <ListItemTextStyle disableTypography primary={translate(title)} isCollapse={isCollapse} />
     </>
   );
 

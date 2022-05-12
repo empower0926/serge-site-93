@@ -1,14 +1,14 @@
+/* eslint-disable react/prop-types */
 import { m } from 'framer-motion';
 import Slider from 'react-slick';
 import { Box, Typography, useMediaQuery } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import useLocales from '../../hooks/useLocales';
-import { MotionViewport, varFade } from '../animate';
+import { varFade } from '../animate';
 
 const Img = styled('img')({
   maxWidth: '100%',
   height: 'auto',
-  cursor: 'pointer'
+  cursor: 'pointer',
 });
 const SliderStyle = styled(Slider)({
   '& img': {
@@ -36,7 +36,6 @@ export default function VideoSlide({ content }) {
   // useEffect(() => {
   //   window.scrollTo(0, 0);
   // }, [pathname]);
-  const { translate } = useLocales();
   const isMobile = useMediaQuery('(max-width: 576px)');
   const settings = {
     infinite: true,
@@ -45,9 +44,9 @@ export default function VideoSlide({ content }) {
     slidesToShow: isMobile ? 2 : 4,
     slidesToScroll: isMobile ? 2 : 4,
   };
-  const handleVideo = ()=>{
+  const handleVideo = () => {
     window.scrollTo(0, 0);
-  }
+  };
   return (
     <Box>
       <m.div variants={varFade().inUp}>

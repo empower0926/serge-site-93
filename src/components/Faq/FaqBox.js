@@ -8,7 +8,7 @@ import { Container, Box, Typography } from '@mui/material';
 import useLocales from '../../hooks/useLocales';
 import FrqConfig from './FaqConfig';
 
-const Accordion = styled((props) => <MuiAccordion disableGutters elevation={0} square {...props} />)(({ theme }) => ({
+const Accordion = styled((props) => <MuiAccordion disableGutters elevation={0} square {...props} />)(() => ({
   borderRadius: '8px',
   '&:not(:last-child)': {
     borderBottom: 0,
@@ -69,7 +69,7 @@ export default function CustomizedAccordions() {
               <Typography
                 variant="p"
                 component="p"
-                sx={{ whiteSpace: `${index === 7 || index === 6 ? 'pre-line' : ''}`, fontWeight: 'lighter' }}
+                sx={{ fontWeight: 'lighter' }}
                 dangerouslySetInnerHTML={{__html: translate(e.answere)}}
               />
             ) : (

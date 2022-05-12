@@ -1,8 +1,7 @@
-import { m } from 'framer-motion';
-import { Stack, Typography } from '@mui/material';
+import { Stack } from '@mui/material';
 import MagCard from './MagCard';
 import MagConfig from './MagConfig';
-import { MotionViewport, varFade } from '../animate';
+import { MotionViewport } from '../animate';
 
 export default function Mag() {
   return (

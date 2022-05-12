@@ -1,14 +1,10 @@
 import { m } from 'framer-motion';
 import { Box, Container, Typography, Divider } from '@mui/material';
-import { styled } from '@mui/material/styles';
-import useLocales from '../../hooks/useLocales';
 import { MotionViewport, varFade } from '../animate';
 import VideoConfig from './VideoConfig';
-import HomeConfig from '../home/HomeConfig';
 import VideoSlide from './VideoSlide';
 
 export default function VideoGallery() {
-  const { translate } = useLocales();
   return (
     <Container sx={{ maxWidth: '1200px', py: 5 }}>
       {VideoConfig.map((e, index) => (

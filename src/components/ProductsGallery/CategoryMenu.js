@@ -1,4 +1,7 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable react/prop-types */
 import * as React from 'react';
+import { useEffect } from 'react';
 import { styled, alpha } from '@mui/material/styles';
 import { Button, Box } from '@mui/material';
 import Menu from '@mui/material/Menu';
@@ -57,7 +60,7 @@ export default function CategoryMenu(props) {
   const flower = 'All Flower Collection';
   const food = 'All Food Collection';
   const oil = 'All Oil Collection';
-  const { handleChange,handleMenuChange } = props;
+  const { handleChange, name } = props;
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [menuBtnText, setMenuBtnText] = React.useState(body);
   const open = Boolean(anchorEl);
@@ -75,7 +78,15 @@ export default function CategoryMenu(props) {
     else if (data === flower) handleChange('FLOWER_COLLECTION');
     else if (data === oil) handleChange('OIL_COLLECTION');
   };
-
+  useEffect(() => {
+    if (name) {
+      setMenuBtnText(`all ${name} collection`);
+      if (name === 'body') handleChange('BODY_COLLECTION');
+      else if (name === 'food') handleChange('FOOD_COLLECTION');
+      else if (name === 'flower') handleChange('FLOWER_COLLECTION');
+      else if (name === 'oil') handleChange('OIL_COLLECTION');
+    } else setMenuBtnText(body);
+  }, []);
   return (
     <Box sx={{ p: '24px 8px', textAlign: 'center' }}>
       <Button
@@ -86,7 +97,6 @@ export default function CategoryMenu(props) {
         variant="text"
         disableElevation
         onClick={handleClick}
-        // onChange = {()=>handleMenuChange}
         endIcon={<KeyboardArrowDownIcon sx={{ width: '30px', height: '30px' }} />}
         sx={{ color: '#fff', fontSize: '24px' }}
       >

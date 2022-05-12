@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useParams } from 'react-router';
 // components
 import Page from '../components/Page';
 import Charter from '../components/Charter';
@@ -10,10 +11,11 @@ export default function ProductPage() {
   const handleChange = (e) => {
     setCharterText(e);
   };
+  const { name } = useParams();
   return (
     <Page title="About Page" sx={{ position: 'relative' }}>
       <Charter text={charterText} />
-      <ProductsGallery handleChange={handleChange} filterText={charterText} />
+      <ProductsGallery handleChange={handleChange} filterText={charterText} name={name} />
     </Page>
   );
 }

@@ -1,8 +1,7 @@
 import { m } from 'framer-motion';
-import { Link as RouterLink } from 'react-router-dom';
 // @mui
 import { styled } from '@mui/material/styles';
-import { Box, Link, Container, Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 // routes
 // components
 import { MotionContainer, varFade } from '../animate';
@@ -10,7 +9,7 @@ import HeroSlide from './HeroSlide';
 import useLocales from '../../hooks/useLocales';
 // ----------------------------------------------------------------------
 
-const Img = styled(m.img)({
+const Img = styled('img')({
   width: '100%',
   height: 'auto',
   minHeight: '130px',
@@ -31,7 +30,7 @@ const RelativeDivStyle = styled('div')({
 export default function HomeHero() {
   const { translate } = useLocales();
   return (
-    <Box>
+    <Box sx={{lineHeight:'0'}}>
       <MotionContainer>
         <RelativeDivStyle sx={{ position: 'relative' }}>
           <Img src="/assets/illustrations/charter.png" alt="charter" />

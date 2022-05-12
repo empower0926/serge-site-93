@@ -4,7 +4,7 @@ import HomeConfig from './HomeConfig';
 
 export default function Collection() {
   return (
-    <Box sx={{mt: {xs:'48px',md:'120px'}}}>
+    <Box>
       {HomeConfig.map((e, index) => (
         <CollectionSlide key={index} title={e.title} bgColor={e.bgColor} data={e.data}/>
       ))}

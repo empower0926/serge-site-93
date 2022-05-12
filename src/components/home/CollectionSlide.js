@@ -25,13 +25,11 @@ const SliderStyle = styled(Slider)({
     transition: 'all ease 300ms',
   },
   '& .slick-next, & .slick-prev': {
-    visibility: 'visible',
-    zIndex: '999',
-    height: '36px',
+    zIndex: '4',
   },
   '& .slick-next:before, & .slick-prev:before': {
-    visibility: 'visible',
     fontSize: '36px',
+    color: '#000'
   },
   '& .slick-next': {
     right: '40px',

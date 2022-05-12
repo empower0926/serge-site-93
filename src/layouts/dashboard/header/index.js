@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types';
 // @mui
 import { styled } from '@mui/material/styles';
-import { Box, Stack, AppBar, Toolbar, Button, Link } from '@mui/material';
-import { Link as RouterLink } from 'react-router-dom';
+import { Box, Stack, AppBar, Toolbar, Link } from '@mui/material';
 import useLocales from '../../../hooks/useLocales';
 // hooks
 import useOffSetTop from '../../../hooks/useOffSetTop';
@@ -10,7 +9,7 @@ import useResponsive from '../../../hooks/useResponsive';
 // utils
 import cssStyles from '../../../utils/cssStyles';
 // config
-import { HEADER, NAVBAR } from '../../../config';
+import { HEADER } from '../../../config';
 // components
 import Logo from '../../../components/Logo';
 import Iconify from '../../../components/Iconify';
@@ -22,7 +21,7 @@ import LanguagePopover from './LanguagePopover';
 
 const RootStyle = styled(AppBar, {
   shouldForwardProp: (prop) => prop !== 'isCollapse' && prop !== 'isOffset' && prop !== 'verticalLayout',
-})(({ isCollapse, isOffset, verticalLayout, theme }) => ({
+})(({ theme }) => ({
   ...cssStyles(theme).bgBlur(),
   boxShadow: 'none',
   background: '#000',
@@ -34,13 +33,13 @@ const RootStyle = styled(AppBar, {
 }));
 const LinkStyle = styled(Link)({
   fontWeight: 'lighter',
-  '&:hover':{
-    color: '#2BB972'
+  '&:hover': {
+    color: '#2BB972',
   },
-  color: 'white', 
+  color: 'white',
   fontSize: '16px',
   paddingLeft: '24px',
-  transition: 'all ease 400ms'
+  transition: 'all ease 400ms',
 });
 // ----------------------------------------------------------------------
 

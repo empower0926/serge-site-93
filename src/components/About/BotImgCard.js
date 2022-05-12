@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { Box, Grid, Typography } from '@mui/material';
 import styled from '@emotion/styled';
 import { m } from 'framer-motion';
-import { MotionViewport, varFade } from '../animate';
+import { varFade } from '../animate';
 import useLocales from '../../hooks/useLocales';
 
 const BoxStyle = styled('div')({

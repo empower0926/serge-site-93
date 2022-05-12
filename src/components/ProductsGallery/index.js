@@ -8,14 +8,14 @@ import Product from './product';
 import HomeConfig from '../home/HomeConfig';
 
 export default function ProductsGallery(props) {
-  const { handleChange, filterText } = props;
+  const { handleChange, filterText, name } = props;
   return (
     <>
       <Box sx={{ backgroundColor: '#fb48c4' }}>
-        <CategoryMenu handleChange={handleChange} />
+        <CategoryMenu handleChange={handleChange} name={name} />
       </Box>
       <Container sx={{ maxWidth: '1200px', py: 4 }}>
-        <Grid container spacing={0} justifyContent='center'>
+        <Grid container spacing={0} justifyContent="center">
           {HomeConfig.map((e) =>
             e.title === filterText
               ? e.data.map((item, index) => (

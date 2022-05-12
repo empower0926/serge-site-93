@@ -204,111 +204,111 @@ const es = {
    Greensensitive forma parte de la Red Ollorun, uno de cuyos compromisos es el
 desarrollo de áreas de bienestar. Esta Red forja el vínculo con una red de ventas
 híbrida, diseñada entre el modelo corporativo y el marketing relacional.`,
-// glossary
-Tonsils: `Amígdalas`,
-Tonsils_CONTENT: `Órgano linfoide con forma de almendra situado en la faringe (la amígdala lingual está
+  // glossary
+  Tonsils: `Amígdalas`,
+  Tonsils_CONTENT: `Órgano linfoide con forma de almendra situado en la faringe (la amígdala lingual está
   situada en la base de la lengua en la hipofaringe; las dos amígdalas palatinas están
   situadas a ambos lados de la orofaringe; la amígdala faríngea está situada en la pared
   posterior de la nasofaringe. La amígdala faríngea agrandada forma las adenoides).
   Bud clásico
   Se trata de las partes superiores de la planta de cáñamo (flores) disponibles enteras.`,
-Classic_Bud: `Bud clásico`,
-Classic_Bud_CONTENT: `Se trata de las partes superiores de la planta de cáñamo (flores) disponibles enteras.`,
-Cannabis_Sativa: `Cannabis Sativa`,
-Cannabis_Sativa_CONTENT: `Cannabis Sativa es el nombre científico del cáñamo. Es una de las dos especies
+  Classic_Bud: `Bud clásico`,
+  Classic_Bud_CONTENT: `Se trata de las partes superiores de la planta de cáñamo (flores) disponibles enteras.`,
+  Cannabis_Sativa: `Cannabis Sativa`,
+  Cannabis_Sativa_CONTENT: `Cannabis Sativa es el nombre científico del cáñamo. Es una de las dos especies
 principales de Cannabinaceae, una de las cuales tiene efectos psicoactivos
 (comúnmente conocida como "cannabis recreativo") y la otra no tiene efectos
 psicoactivos (comúnmente conocida como cáñamo o CBD, aunque este último es un
 nombre equivocado).`,
-CBD: `CBD`,
-CBD_CONTENT: `BD" es la abreviatura de "cannabidiol". Esta molécula es uno de los muchos
+  CBD: `CBD`,
+  CBD_CONTENT: `BD" es la abreviatura de "cannabidiol". Esta molécula es uno de los muchos
 (alrededor de doscientos) cannabinoides que se encuentran en el cáñamo, también
 conocido como cannabis sativa.`,
-Super_Critical_CO2: `CO2 supercrítico`,
-Super_Critical_CO2_CONTENT: `Esta es la técnica de extracción utilizada para los productos de cáñamo. Permite
+  Super_Critical_CO2: `CO2 supercrítico`,
+  Super_Critical_CO2_CONTENT: `Esta es la técnica de extracción utilizada para los productos de cáñamo. Permite
 obtener un compuesto conservando toda su integridad y aprovechando al máximo sus
 cualidades específicas.`,
-Cortisol: `Cortisol`,
-Cortisol_CONTENT: `El cortisol es una hormona producida por las glándulas suprarrenales. Desempeña un
+  Cortisol: `Cortisol`,
+  Cortisol_CONTENT: `El cortisol es una hormona producida por las glándulas suprarrenales. Desempeña un
 papel esencial en el equilibrio de la glucosa en sangre y en la liberación de azúcar de
 las reservas del organismo en respuesta a una mayor demanda de energía. El cortisol
 también interviene en el metabolismo de las grasas y las proteínas.
 Efecto de entorno`,
-Surrounding_effect: `El CBD`,
-Surrounding_effect_CONTENT: `es una de las moléculas presentes en el cáñamo. Pero no es el único. Es una
+  Surrounding_effect: `El CBD`,
+  Surrounding_effect_CONTENT: `es una de las moléculas presentes en el cáñamo. Pero no es el único. Es una
 molécula que necesita el efecto séquito para activarse: es decir, sólo puede ser
 plenamente eficaz cuando está acompañada por todas las moléculas de la planta de
 cáñamo.`,
-Hemp_flower: `Flor de cáñamo`,
-Hemp_flower_CONTENT: `La flor del cáñamo es la parte superior cosechada de la planta de cáñamo. A
+  Hemp_flower: `Flor de cáñamo`,
+  Hemp_flower_CONTENT: `La flor del cáñamo es la parte superior cosechada de la planta de cáñamo. A
 continuación, se utiliza seco o en forma de aceite.
 `,
-Full_spectrum: `Espectro completo`,
-Full_spectrum_CONTENT: `Mientras que el aislado se define como un producto de CBD puro, es decir, que sólo
+  Full_spectrum: `Espectro completo`,
+  Full_spectrum_CONTENT: `Mientras que el aislado se define como un producto de CBD puro, es decir, que sólo
 contiene CBD y ningún otro componente del cannabis, el cáñamo Full Spectrum es un
 extracto que incluye todos los cannabinoides presentes en la planta de cannabis. Esto
 permite el efecto envolvente y la plena eficacia del CBD.`,
-Thymus_gland: `Glándula del timo`,
-Thymus_gland_CONTENT: `El timo es una glándula situada en la parte superior del pecho, justo detrás del
+  Thymus_gland: `Glándula del timo`,
+  Thymus_gland_CONTENT: `El timo es una glándula situada en la parte superior del pecho, justo detrás del
 esternón y entre los pulmones. El timo forma parte del sistema endocrino y linfático.`,
-Homeostasis: `Homeostasis`,
-Homeostasis_CONTENT: `Se trata de la estabilización del equilibrio en el cuerpo y la regulación de ciertas
+  Homeostasis: `Homeostasis`,
+  Homeostasis_CONTENT: `Se trata de la estabilización del equilibrio en el cuerpo y la regulación de ciertas
 características fisiológicas en los organismos vivos.`,
-MCT_Oil: `Aceite MCT`,
-MCT_Oil_CONTENT: `Esta es la base de aceite asociada con el aceite de cáñamo. La ventaja del aceite MCT
+  MCT_Oil: `Aceite MCT`,
+  MCT_Oil_CONTENT: `Esta es la base de aceite asociada con el aceite de cáñamo. La ventaja del aceite MCT
 sobre el aceite convencional que se encuentra en otros productos (por ejemplo, el
 aceite de coco, colza o girasol) es que no es digerido por el páncreas o la vesícula biliar.
 Por tanto, su absorción en el intestino es muy elevada. Esto permite una mejor
 asimilación por parte del organismo. El cuerpo está compuesto en gran parte por agua.
 Como el aceite y el agua no se mezclan, es importante garantizar una buena absorción.
 El aceite MCT lo hace posible.`,
-Indoor: `Interior`,
-Indoor_CONTENT: `Esto significa que las plantas se cosechan en invernaderos. La ventaja de este método
+  Indoor: `Interior`,
+  Indoor_CONTENT: `Esto significa que las plantas se cosechan en invernaderos. La ventaja de este método
 de cultivo es que los invernaderos permiten gestionar el calor, la humedad y la luz. El
 sistema de iluminación también permite gestionar la altura de la planta porque deja de
 crecer una vez que alcanza la luz. Esto garantiza la calidad de cada flor cultivada.`,
-Isolate: `Aislar`,
-Isolate_CONTENT: `Un aislado es un producto en el que sólo está la molécula de CBD. No contiene todo el
+  Isolate: `Aislar`,
+  Isolate_CONTENT: `Un aislado es un producto en el que sólo está la molécula de CBD. No contiene todo el
 espectro del cáñamo. Por lo tanto, la eficacia es menor, debido a la ausencia del efecto
 envolvente.`,
-Rate: `Bazo`,
-Rate_CONTENT: `Órgano ricamente vascularizado situado en el ángulo superior izquierdo del abdomen,
+  Rate: `Bazo`,
+  Rate_CONTENT: `Órgano ricamente vascularizado situado en el ángulo superior izquierdo del abdomen,
 entre el diafragma y las costillas. Antes del nacimiento, produce parte de las célulassanguíneas y, después del nacimiento, desempeña un papel importante en la
 inmunidad.`,
-CB1_receptor: `Receptor CB1`,
-CB1_receptor_CONTENT: `Localizado principalmente en el cerebro y la médula espinal, equilibra el tejido
+  CB1_receptor: `Receptor CB1`,
+  CB1_receptor_CONTENT: `Localizado principalmente en el cerebro y la médula espinal, equilibra el tejido
 conectivo, los órganos reproductores, las glándulas y los órganos internos. Afecta al
 estado de ánimo, a la relajación, a la capacidad de afrontar el estrés, a la memoria, al
 aprendizaje, al descanso, a la libido, a la capacidad de olvidar y a la gestión de los
 movimientos involuntarios.`,
-CB2_receptor: `Receptor CB2`,
-CB2_receptor_CONTENT: `Situado principalmente en torno al sistema inmunitario, equilibra el bazo, la amígdala,
+  CB2_receptor: `Receptor CB2`,
+  CB2_receptor_CONTENT: `Situado principalmente en torno al sistema inmunitario, equilibra el bazo, la amígdala,
 la glándula del timo (vinculada al sistema endocrino y linfático), los glóbulos blancos.`,
-Resin: `Resina`,
-Resin_CONTENT: `La resina está hecha de polen de cáñamo. Es un concentrado de cáñamo y, por tanto,
+  Resin: `Resina`,
+  Resin_CONTENT: `La resina está hecha de polen de cáñamo. Es un concentrado de cáñamo y, por tanto,
 de cannabinoides.`,
-Rock: `Rock`,
-Rock_CONTENT: `Es una mezcla de flores de cáñamo, aceite de cáñamo de espectro completo y polen.
+  Rock: `Rock`,
+  Rock_CONTENT: `Es una mezcla de flores de cáñamo, aceite de cáñamo de espectro completo y polen.
 La flor se empapa en aceite de cáñamo y luego en polen.`,
-Small_bud_premium: `Prima por cogollos pequeños`,
-Small_bud_premium_CONTENT: `Son las flores más pequeñas aisladas de la producción principal. A continuación, se
+  Small_bud_premium: `Prima por cogollos pequeños`,
+  Small_bud_premium_CONTENT: `Son las flores más pequeñas aisladas de la producción principal. A continuación, se
 agrupan para formar la prima de cogollos pequeños.`,
-Endocannabinoid_system: `Sistema endocannabinoide`,
-Endocannabinoid_system_CONTENT: `El sistema endocannabinoide está presente de forma natural en nuestro cuerpo.
+  Endocannabinoid_system: `Sistema endocannabinoide`,
+  Endocannabinoid_system_CONTENT: `El sistema endocannabinoide está presente de forma natural en nuestro cuerpo.
 Permite la homeostasis, que estabiliza el equilibrio en el cuerpo y la regulación de
 ciertas características fisiológicas en los organismos vivos.`,
-THC: `THC`,
-THC_CONTENT: `THC es la abreviatura de delta-9-tetrahidrocannabinol. Al igual que el CBD, es una
+  THC: `THC`,
+  THC_CONTENT: `THC es la abreviatura de delta-9-tetrahidrocannabinol. Al igual que el CBD, es una
 molécula que pertenece a la familia de los cannabinoides. Sin embargo, a diferencia
 del CBD, el THC produce efectos psicoactivos. Por eso no debe superar el 0,3% en
 todos los productos comercializados.`,
-Trim: `Recorte`,
-Trim_CONTENT: `Se trata de una mezcla de pequeñas flores y fragmentos de cáñamo.`,
-// mag
-READ_MORE: 'READ MORE',
-headertitle1: `Sobre la infusión de CBD`,
-title1: `Todo lo que necesitas saber sobre la infusión de CBD`,
-content1: `La infusión de cáñamo es la forma más saludable de utilizar las flores de cáñamo directamente. Contrariamente a lo popular
+  Trim: `Recorte`,
+  Trim_CONTENT: `Se trata de una mezcla de pequeñas flores y fragmentos de cáñamo.`,
+  // mag
+  READ_MORE: 'READ MORE',
+  headertitle1: `Sobre la infusión de CBD`,
+  title1: `Todo lo que necesitas saber sobre la infusión de CBD`,
+  content1: `La infusión de cáñamo es la forma más saludable de utilizar las flores de cáñamo directamente. Contrariamente a lo popular
 creencia, puedes comprar flores de cáñamo sin fumarlas. De hecho, esto está prohibido por la ley.
 Así que hoy te proponemos descubrir la flor de cáñamo, pero también la resina y el polen en
 la forma de infusión.<br/><br />
@@ -341,9 +341,9 @@ Entonces, te esperan 4 pasos de preparación:<br /><br />
 3. Desmenuza tus flores de cáñamo, resina o roca antes de ponerlas en un colador de té y
 luego en agua hirviendo.<br /><br />
 4. Deje en infusión durante al menos 15 minutos y luego ¡disfrútelo!`,
-headertitle2: `Cocina tu cáñamo`,
-title2: `¿Sabías que puedes cocinar el cáñamo?`,
-content2: `La infusión de cáñamo es bastante común. Cocinar con cáñamo es otra puerta abierta a muchos
+  headertitle2: `Cocina tu cáñamo`,
+  title2: `¿Sabías que puedes cocinar el cáñamo?`,
+  content2: `La infusión de cáñamo es bastante común. Cocinar con cáñamo es otra puerta abierta a muchos
 curiosidades y experiencias. Hoy decidimos compartir contigo todo lo relacionado con la cocina.
 con cáñamo!<br /><br />
 Si bien el pastel de cáñamo puede tener, para algunos, un vínculo directo con lo que se conoce como "pastel espacial", piensa
@@ -392,9 +392,9 @@ prefiere consumirlo en infusión (flor, resina y roca) o en aceite (en nuestra C
 Finalmente, al cocinar con cáñamo, es importante dejar los detalles de la cocina a
 experimentar y probar. Sea libre de tomar sus propias decisiones y pruebe el cáñamo de diferentes maneras.
 ¡Comparte tu buena comida en las redes sociales! #Greensensitive`,
-headertitle3: `Interior e Invernadero`,
-title3: `Interior, Invernadero, ¿cuál es la diferencia?`,
-content3: `Es posible que ya haya notado que la colección de flores de Greensensitive ofrece la
+  headertitle3: `Interior e Invernadero`,
+  title3: `Interior, Invernadero, ¿cuál es la diferencia?`,
+  content3: `Es posible que ya haya notado que la colección de flores de Greensensitive ofrece la
 palabras "Interior" o "Invernadero" para cada sabor. Estos son elementos importantes que
 caracterizar la forma en que se produce el cáñamo antes de que se ofrezca como flores, resinas o rocas. Está
 Por lo tanto, es importante comprender los intereses de cada método de producción para
@@ -433,9 +433,9 @@ En cuanto a la planta "Invernadero", tiene la ventaja de ser más respetuosa con
 ambiente porque no se necesita electricidad para las lámparas artificiales. Sin embargo, de interior
 El cultivo permite un manejo más preciso de la planta y por lo tanto una mayor
 calidad. ¡Dejamos que usted seleccione el producto que más le convenga!`,
-headertitle4: `Elige mi aceite de cáñamo`,
-title4: `Elegir mi aceite de cáñamo`,
-content4: `En el mercado del cáñamo, hay muchos aceites diferentes. A veces es difícil saber qué aceite es mejor para
+  headertitle4: `Elige mi aceite de cáñamo`,
+  title4: `Elegir mi aceite de cáñamo`,
+  content4: `En el mercado del cáñamo, hay muchos aceites diferentes. A veces es difícil saber qué aceite es mejor para
 usted y que es de buena calidad. Nos gustaría presentarle los 3 pilares principales para un cáñamo óptimo
 calidad y le daremos algunos consejos sobre cómo hacer su elección.<br /><br />
 <b>Los tres pilares del cáñamo de calidad</b><br /><br />
@@ -490,6 +490,59 @@ de vasos sanguíneos. Capturan las moléculas de cáñamo y les permiten actuar 
 ¡Se recomienda esperar entre 30 y 60 segundos antes de tragar para que sea aún más efectivo! Está
 También es posible agregar su aceite de cáñamo a una bebida o comida. Una vez más, los productos a base de cáñamo le brindan la
 ¡Libertad para elegir cómo usarlos, según tus gustos y deseos!`,
+  // faq
+  What_is_CBD: `¿Qué es el CBD?`,
+  What_is_CBD_ANS: `La abreviatura "CBD" proviene del término "cannabidiol". Es una molécula
+  que es uno de los muchos (alrededor de 100) cannabinoides que se
+  encuentran en el cáñamo, también conocido como cannabis sativa. El CBD
+  tiene un gran número de beneficios para mejorar el bienestar: sueño,
+  relajación, manejo del dolor.`,
+  Are_hemp_and_CBD_legal: `¿Son legales el cáñamo y el CBD?
+  `,
+  Are_hemp_and_CBD_legal_ANS: `La respuesta es sí. No es obvio para el ojo distinguir entre un producto
+  legal e ilegal, ya que las plantas provienen de la misma especie. La única
+  manera de saber si su producto es legal o no es por el contenido de THC.
+  De hecho, sólo un nivel inferior al 0,3%, fijado por la normativa europea,
+  garantiza la legalidad. Para los productos procesados, como los
+  cosméticos, el nivel es del 0% de THC. La OMS asegura la legalidad del
+  cáñamo, ya que no provoca efectos psicotrópicos.`,
+  Can_flowers_be_smoked: `¿Se pueden fumar las flores?`,
+  Can_flowers_be_smoked_ANS: `Las flores no deben fumarse. Deben consumirse en infusiones con una
+  sustancia grasa. El cáñamo no es soluble en agua. También es posible
+  incorporarlos a tus recetas.`,
+  What_is_the_difference_between_hemp_CBD_and_cannabis: `¿Cuál es la diferencia entre el cáñamo (CBD) y el cannabis?`,
+  What_is_the_difference_between_hemp_CBD_and_cannabis_ANS: `La familia del "cannabis" está compuesta por diversas variedades, entre
+  ellas la marihuana, que tiene la particularidad de tener efectos
+  psicotrópicos (cannabis recreativo). El cáñamo es otra variedad. Su
+  diferencia es que sólo tiene un 0,3% de THC. Esto significa que no tiene
+  efectos psicoactivos, a diferencia de la primera variedad mencionada.
+  Debido a este bajo contenido de THC, el cáñamo es legal, a diferencia de la
+  primera variedad mencionada.`,
+  How_to_use_hemp_oil: `¿Cómo utilizar el aceite de cáñamo?`,
+  How_to_use_hemp_oil_ANS: `Para utilizar el aceite de cáñamo, se puede añadir a la comida o a la
+  bebida. Lo que recomendamos y lo que es más eficaz es poner las gotas
+  bajo la lengua. La acción sublingual permite un efecto mayor y más rápido
+  gracias a los numerosos vasos sanguíneos presentes en esta parte de la
+  boca.`,
+  How_to_use_hemp_pollen: `¿Cómo utilizar el polen de cáñamo?`,
+  How_to_use_hemp_pollen_ANS: `El polen de cáñamo, también llamado resina, puede utilizarse de dos
+  maneras diferentes:<br /><br />Infusión: infusión durante 10 minutos con una sustancia grasa como el
+  aceite o la leche de soja. Esto permite disolver el cáñamo, que en su
+  estado habitual no es soluble en agua.<br />
+  En la cocina: añade a tus mejores recetas.`,
+  How_to_use_hemp_rock: `¿Cómo utilizar el rock de cáñamo?`,
+  How_to_use_hemp_rock_ANS: `La roca de cáñamo puede utilizarse de dos maneras diferentes:<br /><br />
+  Infusión: infusión durante 10 minutos con una sustancia grasa como el
+  aceite o la leche de soja. Esto permite disolver el cáñamo, que en su
+  estado habitual no es soluble en agua.<br />
+  En la cocina: añade a tus mejores recetas.`,
+  How_to_use_hemp_flower: `¿Cómo utilizar la flor de cáñamo?`,
+  How_to_use_hemp_flower_ANS: `La flor de cáñamo se puede utilizar de dos maneras diferentes:<br /><br />
+  Infusión: infusión durante 10 minutos con una sustancia grasa como el
+  aceite o la leche de soja. Esto permite disolver el cáñamo, que en su
+  estado habitual no es soluble en agua.<br />
+  En la cocina: añade a tus mejores recetas.`,
+  In_which_cases_the_consumption_of_hemp_is_not_recommended: `¿En qué casos no se recomienda el consumo de cáñamo?`,
 };
 
 export default es;

@@ -8,7 +8,7 @@ import Image from '../../../components/Image';
 import MenuPopover from '../../../components/MenuPopover';
 import { IconButtonAnimate } from '../../../components/animate';
 // config
-import { allLangs } from '../../../config';
+// import { allLangs } from '../../../config';
 
 // ----------------------------------------------------------------------
 
