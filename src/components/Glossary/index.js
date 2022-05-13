@@ -1,9 +1,6 @@
-import PropTypes from 'prop-types';
 import { useState } from 'react';
-import { Box, Container, Divider, Grid, Stack, Typography } from '@mui/material';
-import styled from '@emotion/styled';
-import { m } from 'framer-motion';
-import { MotionViewport, varFade } from '../animate';
+import { Box, Container, Divider, Stack, Typography } from '@mui/material';
+import { MotionViewport } from '../animate';
 import useLocales from '../../hooks/useLocales';
 import KeyButton from './KeyButton';
 import GlossaryConfig from './GlossaryConfig';

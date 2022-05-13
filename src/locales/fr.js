@@ -241,7 +241,7 @@ sociétaire et le marketing relationnel.`,
   dans le métabolisme des graisses et des protéines.`,
   Surrounding_effect: `Effet d’entourage`,
   Surrounding_effect_CONTENT: `Le CBD est l’une des molécules qui sont présentes dans le chanvre. Seulement, elle n’est pas seule. C’est une molécule qui a besoin
-  de l’effet d’entourage pour être activée : c’est-à-dire qu’elle ne peut être totalement effectivement seulement quand elle est
+  de l’effet d’entourage pour être activée : c’est-à-dire qu’elle ne peut être totalement effective seulement quand elle est
   accompagnée de toutes les molécules de la plante de chanvre.`,
   Hemp_flower: `Fleur de chanvre`,
   Hemp_flower_CONTENT: `La fleur de chanvre est la partie sommitale récoltée dans le chanvre. Elle est ensuite utilisée séchée ou sous forme d’huile.`,
