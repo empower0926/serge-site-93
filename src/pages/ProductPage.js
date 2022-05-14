@@ -13,7 +13,7 @@ export default function ProductPage() {
   };
   const { name } = useParams();
   return (
-    <Page title="About Page" sx={{ position: 'relative' }}>
+    <Page title="Product Page" sx={{ position: 'relative' }}>
       <Charter text={charterText} />
       <ProductsGallery handleChange={handleChange} filterText={charterText} name={name} />
     </Page>
