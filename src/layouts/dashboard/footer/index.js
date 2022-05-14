@@ -62,7 +62,10 @@ export default function Footer() {
           <Typography variant="body1" component="span">
             Follow us:
           </Typography>
-          <IconButtonAnimate sx={{ mr: 1, color: '#fff', fontSize: '20px' }}>
+          <IconButtonAnimate
+            sx={{ mr: 1, color: '#fff', fontSize: '20px' }}
+            href="https://instagram.com/ollorun.care?r=nametag"
+          >
             <Iconify icon="ph:instagram-logo-light" />
           </IconButtonAnimate>
         </Stack>
