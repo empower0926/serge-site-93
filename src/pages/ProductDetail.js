@@ -3,14 +3,14 @@ import { m } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 // @mui
-import { Container, Typography, Box, Stack, IconButton } from '@mui/material';
+import { Container, Typography, Box, Stack, IconButton, Button, Link } from '@mui/material';
 import Iconify from '../components/Iconify';
 // hooks
 import useLocales from '../hooks/useLocales';
 // components
 import Page from '../components/Page';
 import ProductConfig from '../components/productdetail/ProductConfig';
-import { MotionViewport, varFade, varFlip } from '../components/animate';
+import { IconButtonAnimate, MotionViewport, varFade, varFlip } from '../components/animate';
 // ----------------------------------------------------------------------
 
 export default function ProductDetail() {
@@ -28,7 +28,7 @@ export default function ProductDetail() {
   }, []);
 
   return (
-    <Page title="Product Detail" sx={{position: 'relative'}}>
+    <Page title="Product Detail" sx={{ position: 'relative' }}>
       <MotionViewport sx={{ px: '16px' }}>
         <Stack direction={{ xs: 'column', lg: 'row' }} sx={{ pb: '48px', maxWidth: '1200px', mx: 'auto' }}>
           <m.div variants={varFade().inUp}>
@@ -45,13 +45,33 @@ export default function ProductDetail() {
                 {translate(data.description)}
               </Typography>
             </m.div>
+            <m.div variants={varFade().inRight}>
+              {/* <Button>
+                <Link href={data.report} download>
+                  {translate('Analisis report')}
+                </Link>
+              </Button> */}
+              <Button
+                size="large"
+                variant="outlined"
+                color="primary"
+                endIcon={<Iconify icon="akar-icons:download" />}
+                sx={{
+                  fontSize: 16,
+                }}
+              >
+                <Link href={data.report} download>
+                  {translate('Analisis report')}
+                </Link>
+              </Button>
+            </m.div>
           </Stack>
         </Stack>
         <m.div variants={varFlip().inX}>
-          <Box sx={{position: 'absolute', right: '16px', top: '24px'}}>
-            <IconButton onClick={() => navigate(-1)}>
+          <Box sx={{ position: 'absolute', right: '16px', top: '24px' }}>
+            <IconButtonAnimate onClick={() => navigate(-1)}>
               <Iconify icon={'akar-icons:arrow-back-thick'} color="#FF48B6" width={20} height={20} />
-            </IconButton>
+            </IconButtonAnimate>
           </Box>
         </m.div>
       </MotionViewport>
