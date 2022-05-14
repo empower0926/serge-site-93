@@ -46,24 +46,20 @@ export default function ProductDetail() {
               </Typography>
             </m.div>
             <m.div variants={varFade().inRight}>
-              {/* <Button>
-                <Link href={data.report} download>
-                  {translate('Analisis report')}
-                </Link>
-              </Button> */}
-              <Button
-                size="large"
-                variant="outlined"
-                color="primary"
-                endIcon={<Iconify icon="akar-icons:download" />}
-                sx={{
-                  fontSize: 16,
-                }}
-              >
-                <Link href={data.report} download>
-                  {translate('Analisis report')}
-                </Link>
-              </Button>
+              {data.report && (
+                <Button
+                  variant="outlined"
+                  color="primary"
+                  endIcon={<Iconify icon="akar-icons:download" />}
+                  sx={{
+                    fontSize: 16,
+                  }}
+                >
+                  <Link href={data.report} download>
+                    {translate('Analisis_report')}
+                  </Link>
+                </Button>
+              )}
             </m.div>
           </Stack>
         </Stack>

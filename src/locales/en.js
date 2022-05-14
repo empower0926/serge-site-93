@@ -27,6 +27,11 @@ const en = {
   FLOWER_COLLECTION: 'Flower Collection',
   FOOTER_TEXT1: `© Ollorun 2022 All rights reserved`,
   FOOTER_TEXT2: `OLLORUN Network Limited (Company Number 12660658) is owned by SAPIAN GROUP/FLASH GROUP.`,
+  Analisis_report: 'Analisis Report',
+  Amnesia_title: 'Trim (Indoor) Amnesia',
+  Cannatonic_title:'Trim (Greendoor +) Cannatonic',
+  Hemp_Amnesia:'Hemp flower (Bud classic Indoor)Amnesia',
+  Caramelo_title:'Caramelo',
   // body
   ANTI_AGING_CREAM: `Anti-aging cream`,
   ANTI_AGING_CREAM_DESC: `This anti-aging cream, concentrated in sweet almond oil, hyaluronic acid and beeswax, reveals all the
@@ -114,12 +119,12 @@ const en = {
   Suprême_DESC: `Discover these earthy and deep flavors typical of this plant, by its bitter side.`,
   Triple_O: `Resin (Greenhouse)  \n  Triple O`,
   Triple_O_DESC: `A combination of floral and spicy flavors, this resin will satisfy great gourmets!`,
-  Trim_Amnesia:`Trim (Indoor) Amnesia`,
-  Trim_Amnesia_DESC:`L’amertume et la saveur torréfiée de cette trim liées à des notes de sésame saura vous surprendre agréablement.`,
-  Cannatonic:`Trim (Greendoor +) Cannatonic`,
-  Cannatonic_DESC:`Découvrez les douces saveurs fruitées et exotiques du Cannatonic !`,
-  Strawberry_Milkshake:`Trim (Greendoor classique) Strawberry Milkshake`,
-  Strawberry_Milkshake_DESC:`Découvrez la douceur des saveurs sucrées de cette trim, alliées aux notes de baies.`,
+  Trim_Amnesia: `Trim (Indoor) Amnesia`,
+  Trim_Amnesia_DESC: `L’amertume et la saveur torréfiée de cette trim liées à des notes de sésame saura vous surprendre agréablement.`,
+  Cannatonic: `Trim (Greendoor +) Cannatonic`,
+  Cannatonic_DESC: `Découvrez les douces saveurs fruitées et exotiques du Cannatonic !`,
+  Strawberry_Milkshake: `Trim (Greendoor classique) Strawberry Milkshake`,
+  Strawberry_Milkshake_DESC: `Découvrez la douceur des saveurs sucrées de cette trim, alliées aux notes de baies.`,
   // oil
   Hemp_oil_10: `Hemp oil 10%`,
   Hemp_oil_10_DESC: `The MCT oil, associated with hemp, ensures an optimal absorption of the benefits of the plant. This oil
@@ -137,11 +142,11 @@ const en = {
   Hemp_oil_50_DESC: `The MCT oil, associated with hemp, ensures an optimal absorption of the benefits of the plant. This oil
   will bring you comfort and well-being. True Swiss Army knife, it will be able to answer many needs with
   the daily.`,
-  CBG_CBD_Elixir: `CBG/CBD Elixir`,
+  CBG_CBD_Elixir: `CBG/CBD Elixir 5%`,
   CBG_CBD_Elixir_DESC: `Known for its numerous soothing virtues, CBD finds in this oil a very effective partner: CBG. Also coming
   from hemp, its presence will allow you to target inflammations and anxieties. A great ally for your daily
   well-being!`,
-  CBN_CBD_Elixir: `CBN/CBD Elixir`,
+  CBN_CBD_Elixir: `CBN/CBD Elixir 5%`,
   CBN_CBD_Elixir_DESC: `Known for its many soothing virtues, CBD finds in this oil a very effective partner: CBN. Also coming from
   hemp, its presence will allow you to target the quality of sleep and the loss of appetite. A great ally for
   your daily well-being!`,

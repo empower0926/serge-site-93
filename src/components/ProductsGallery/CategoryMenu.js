@@ -56,10 +56,10 @@ const StyledMenu = styled((props) => (
 }));
 
 export default function CategoryMenu(props) {
-  const body = 'All Body Collection';
-  const flower = 'All Flower Collection';
-  const food = 'All Food Collection';
-  const oil = 'All Oil Collection';
+  const body = 'Body Collection';
+  const flower = 'Flower Collection';
+  const food = 'Food Collection';
+  const oil = 'Oil Collection';
   const { handleChange, name } = props;
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [menuBtnText, setMenuBtnText] = React.useState(body);

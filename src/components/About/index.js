@@ -1,5 +1,5 @@
 import { m } from 'framer-motion';
-import { Box, Container, Grid, Typography } from '@mui/material';
+import { Box, Container, Grid, Stack, Typography } from '@mui/material';
 import useLocales from '../../hooks/useLocales';
 import { MotionViewport, varFade, varFlip } from '../animate';
 import BotImgCard from './BotImgCard';
@@ -9,19 +9,19 @@ export default function About() {
   const data = [
     {
       title: 'BODY',
-      path: '/assets/images/other/forbody.jpg',
+      path: '/assets/images/HeroCaro/1.png',
     },
     {
       title: 'FOOD',
-      path: '/assets/images/other/forfood.jpg',
+      path: '/assets/images/HeroCaro/3.png',
     },
     {
       title: 'OIL',
-      path: '/assets/images/other/foroil.jpg',
+      path: '/assets/images/HeroCaro/4.png',
     },
     {
       title: 'FLOWER',
-      path: '/assets/images/other/forflower.jpg',
+      path: '/assets/images/HeroCaro/2.png',
     },
   ];
   return (
@@ -34,18 +34,18 @@ export default function About() {
             sx={{ ml: 'auto', mb: 6, width: { xs: '140px', sm: '200px' } }}
           />
         </m.div>
-        <Grid container spacing={2}>
-          <Grid item md={6}>
+        <Stack>
+          <Box mb={3}>
             <m.div variants={varFade().inDown}>
-              <Box component="img" src="/assets/images/other/bglogo.jpg" />
+              <Box component="img" src="/assets/images/other/bglogo.jpg" sx={{width:'100%'}} />
             </m.div>
-          </Grid>
-          <Grid item md={6}>
+          </Box>
+          <Box>
             <m.div variants={varFade().inRight}>
-              <Typography variant="body1" component="p" dangerouslySetInnerHTML={{__html: translate('ABOUT_TEXT')}} />
+              <Typography variant="body1" component="p" textAlign="justify" dangerouslySetInnerHTML={{ __html: translate('ABOUT_TEXT') }} />
             </m.div>
-           </Grid>
-        </Grid>
+          </Box>
+        </Stack>
         <Box sx={{ mt: 5 }}>
           <m.div variants={varFade().inUp}>
             <Typography variant="h3" component="h3" textAlign="center">

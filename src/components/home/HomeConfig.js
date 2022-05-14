@@ -42,11 +42,11 @@ const HomeConfig = [
         path: '/assets/images/FLOWER_COLLECTION/1.png',
       },
       {
-        name: 'AMNESIA',
+        name: 'Hemp_Amnesia',
         path: '/assets/images/FLOWER_COLLECTION/2.png',
       },
       {
-        name: 'CARAMELO',
+        name: 'Caramélo',
         path: '/assets/images/FLOWER_COLLECTION/3.png',
       },
       {
@@ -82,7 +82,7 @@ const HomeConfig = [
         path: '/assets/images/FLOWER_COLLECTION/11.png',
       },
       {
-        name: 'SUPRÊME',
+        name: 'Suprème',
         path: '/assets/images/FLOWER_COLLECTION/12.png',
       },
       {
@@ -90,11 +90,11 @@ const HomeConfig = [
         path: '/assets/images/FLOWER_COLLECTION/13.png',
       },
       {
-        name: 'Trim (Indoor) Amnesia',
+        name: 'Amnesia_title',
         path: '/assets/images/FLOWER_COLLECTION/14.png',
       },
       {
-        name: 'Cannatonic',
+        name: 'Cannatonic_title',
         path: '/assets/images/FLOWER_COLLECTION/15.png',
       },
       {

@@ -8,17 +8,14 @@
 const es = {
   CUSTOMER: 'CLIENTE',
   ADVISOR_DST: 'ASESOR/DST',
-  HOME: `CASA`,
-  THE_CBD_MAG: 'LA REVISTA DE CBD',
-  VIDEOS: 'VIDEOS',
-  FAQ: 'Preguntas más frecuentes',
-  ABOUT: 'ACERCA DE',
-  GLOSSARY: 'GLOSARIO',
+  HOME: `Inicio`,
+  COLLECTIONS: 'Colecciones',
+  THE_CBD_MAG: 'CBD Mag',
+  VIDEOS: 'Vídeos',
+  FAQ: 'Preguntas Frecuentes',
+  ABOUT: 'Acerca de',
+  GLOSSARY: 'Glosario',
   LANDING_HEADER_TEXT: 'GREENSITIVE, UNA PALETA DE EXPERIENCIAS EN TORNO AL BIENESTAR.',
-  // BODY: 'CUERPO',
-  // FOOD: 'ALIMENTO',
-  // OIL: 'PETRÓLEO',
-  // FLOWER: 'FLOR',
   BODY: 'BODY',
   BODY_COLLECTION: 'Body Collection',
   FOOD: 'FOOD',
@@ -31,7 +28,8 @@ const es = {
   FOOTER_TEXT1: `© Ollorun 2022 All rights reserved`,
   FOOTER_TEXT2: `OLLORUN Network Limited (Company Number 12660658) is owned by SAPIAN GROUP/FLASH GROUP.`,
   Your_mag_is_coming_soon: `¡Tu revista llegará pronto!`,
-  GREENS_VIDEOS: `VIDEOS DE VERDE`,
+  GREENS_VIDEOS: `GREEN'S VIDEOS`,
+  Analisis_report: 'Informe de análisis',
   // body
   ANTI_AGING_CREAM: `Crema antienvejecimiento`,
   ANTI_AGING_CREAM_DESC: `sta crema anti-edad, concentrada en aceite de almendras dulces, ácido
@@ -66,31 +64,27 @@ const es = {
   floral de aciano, la cera de abejas y el cáñamo actúan en sinergia para
   aliviar la piel.`,
   // oil
-  Hemp_oil_10: `Aceite de cáñamo 10%
-  El aceite MCT`,
+  Hemp_oil_10: `Aceite de cáñamo 10%`,
   Hemp_oil_10_DESC: `combinado con el cáñamo, asegura una absorción óptima
   de los beneficios de la planta. Este aceite te aportará comodidad y
   bienestar. Una verdadera navaja suiza, satisfará muchas necesidades
   diarias.`,
-  Hemp_oil_20: `Aceite de cáñamo 20%
-  El aceite MCT`,
+  Hemp_oil_20: `Aceite de cáñamo 20%`,
   Hemp_oil_20_DESC: `combinado con el cáñamo, asegura una absorción óptima
   de los beneficios de la planta. Este aceite te aportará comodidad y
   bienestar. Una verdadera navaja suiza, satisfará muchas necesidades
   diarias.`,
-  Hemp_oil_30: `Aceite de cáñamo 30%
-  El aceite MCT`,
+  Hemp_oil_30: `Aceite de cáñamo 30%`,
   Hemp_oil_30_DESC: `combinado con el cáñamo, asegura una absorción óptima
   de los beneficios de la planta. Este aceite te aportará comodidad y
   bienestar. Una verdadera navaja suiza, satisfará muchas necesidades
   diarias.`,
-  Hemp_oil_50: `Aceite de cáñamo 50%RECOGIDA DE ACEITE
-  Elixir de CBG/CBD`,
+  Hemp_oil_50: `Aceite de cáñamo 50%`,
   Hemp_oil_50_DESC: `Reconocido por sus numerosas propiedades calmantes, el CBD encuentra
   en este aceite un aliado muy eficaz: el CBG. También procedente del
   cáñamo, su presencia te permitirá combatir tanto la inflamación como la
   ansiedad. ¡Un gran aliado para tu bienestar diario!`,
-  CBG_CBD_Elixir: `Elixir de CBG/CBD`,
+  CBG_CBD_Elixir: `Elixir de CBG/CBD 5%`,
   CBG_CBD_Elixir_DESC: `Reconocido por sus numerosas propiedades calmantes, el CBD encuentra
   en este aceite un aliado muy eficaz: el CBG. También procedente del
   cáñamo, su presencia te permitirá combatir tanto la inflamación como la
@@ -151,8 +145,8 @@ const es = {
   Blueberry_Gummie: `Gomitas de arándanos`,
   Blueberry_Gummies_DESC: `¡Aprovecha estos dulces con sabor agrio elaborados a base de arándanos
   para descubrir el cáñamo de una forma divertida!`,
-  Strawberry_Dragon_Fruit_Drink: ``,
-  Strawberry_Dragon_Fruit_Drink_DESC: ``,
+  Strawberry_Dragon_Fruit_Drink: `Bebida de fresa, fruta del dragón`,
+  Strawberry_Dragon_Fruit_Drink_DESC: `¡Esta bebida espumosa y sin azúcar traerá una ola de frescura y comodidad a su día! Elija entre un amplia gama de sabores afrutados.`,
   Raspberry_Gummies: `Gomitas de frambuesa`,
   Raspberry_Gummies_DESC: `Disfrute de estos dulces a base de frambuesa como una forma divertida
   de descubrir el cáñamo.`,

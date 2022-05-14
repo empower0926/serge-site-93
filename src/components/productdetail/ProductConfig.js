@@ -125,6 +125,7 @@ const ProductConfig = [
         title: 'AK_47_Hydroponic',
         description: 'AK_47_Hydroponic_DESC',
         path: '/assets/images/FLOWER_COLLECTION/1.png',
+        report:'/assets/report/OilCollection/Oil10.pdf',
       },
       {
         title: 'Amnesia',

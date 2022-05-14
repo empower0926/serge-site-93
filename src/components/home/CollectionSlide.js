@@ -113,7 +113,7 @@ export default function CollectionSlide(props) {
   const settings = {
     infinite: true,
     speed: 1000,
-    autoplay: true,
+    // autoplay: true,
     slidesToShow: isMobile ? 1 : isTablet ? 2 : isLaptop ? 3 : 4,
     slidesToScroll: isMobile ? 1 : isTablet ? 2 : isLaptop ? 3 : 4,
   };
@@ -140,9 +140,7 @@ export default function CollectionSlide(props) {
           {data.map((data, index) => (
             <Box key={index} sx={{ px: '8px' }}>
               <Box sx={{ background: '#E9E8E4', position: 'relative' }}>
-                {/* <Link to={`${text}${props.title}${dash}${index}`} component={RouterLink}> */}
                 <Img src={data.path} alt="img1" />
-                {/* </Link> */}
                 <QuickBoxStyle>
                   <ButtonStyle variant="outlined" href={`${text}${props.title}${dash}${index}`}>
                     {translate('QUICK_VIEW')}

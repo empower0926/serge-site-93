@@ -35,7 +35,7 @@ export function NavItemRoot({ item, isCollapse, active }) {
   const { translate } = useLocales();
   const renderContent = (
     <>
-      <ListItemTextStyle disableTypography primary={translate(title)} isCollapse={isCollapse} />
+      <ListItemTextStyle disableTypography primary={translate(title)} isCollapse={isCollapse}   sx={{textTransform:'uppercase'}}/>
     </>
   );
 

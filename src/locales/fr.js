@@ -39,6 +39,7 @@ sociétaire et le marketing relationnel.`,
   FOOTER_TEXT2: `OLLORUN Network Limited (Company Number 12660658) is owned by SAPIAN GROUP/FLASH GROUP.`,
   Your_mag_is_coming_soon: `Votre mag arrive bientôt!`,
   GREENS_VIDEOS: `GREEN'S VIDEOS`,
+  Analisis_report:`Rapport d'analyses`,
   // body
   ANTI_AGING_CREAM: `Crème anti-âge`,
   ANTI_AGING_CREAM_DESC: `Cette crème anti-âge, concentrée en huile d’amande douce, acide hyaluronique et cire d’abeille révèle
@@ -159,11 +160,11 @@ sociétaire et le marketing relationnel.`,
   Hemp_oil_50_DESC: `L’huile MCT, associée au chanvre, assure une absorption optimale des bienfaits de la plante. Cette huile
   vous apportera confort et mieux-être. Vrai couteau-suisse, il saura répondre à de nombreux besoins au
   quotidien.`,
-  CBG_CBD_Elixir: `Elixir CBG/CBD`,
+  CBG_CBD_Elixir: `Elixir CBG/CBD 5%`,
   CBG_CBD_Elixir_DESC: `Réputé pour ses nombreuses vertus apaisantes, le CBD trouve dans cette huile un partenaire très
   efficace : le CBG. Provenant également du chanvre, sa présence vous permettra de cibler les
   inflammations ainsi que les anxiétés. Un allié de taille pour votre mieux-être au quotidien !`,
-  CBN_CBD_Elixir: `Elixir CBN/CBD`,
+  CBN_CBD_Elixir: `Elixir CBN/CBD 5%`,
   CBN_CBD_Elixir_DESC: `Réputé pour ses nombreuses vertus apaisantes, le CBD trouve dans cette huile un partenaire très
   efficace : le CBN. Provenant également du chanvre, sa présence vous permettra de cibler la qualité du
   sommeil et la perte d’appétit. Un allié de taille pour votre mieux-être au quotidien !`,
