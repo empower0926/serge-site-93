@@ -15,6 +15,7 @@ const es = {
   FAQ: 'Preguntas Frecuentes',
   ABOUT: 'Acerca de',
   GLOSSARY: 'Glosario',
+  INDEX: 'Glosario',
   LANDING_HEADER_TEXT: 'GREENSITIVE, UNA PALETA DE EXPERIENCIAS EN TORNO AL BIENESTAR.',
   BODY: 'BODY',
   BODY_COLLECTION: 'Body Collection',

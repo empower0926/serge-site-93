@@ -62,10 +62,15 @@ const SliderStyle = styled(Slider)({
     bottom: '20px',
     width: '100%',
     textAlign: 'center',
-    fontSize: '14px',
-    textTransform: 'capitalize',
+    textTransform: 'uppercase',
     transition: 'opacity ease 300ms',
   },
+  '& .nameBox>span': {
+    fontSize: '12px',
+  },
+  // '& .nameBox::first-letter': {
+  //   textTransform: 'uppercase',
+  // },
 });
 const StackStyle = styled(Stack)({
   position: 'absolute',
@@ -165,7 +170,7 @@ export default function CollectionSlide(props) {
                     </ButtonStyle>
                   </StackStyle>
                   <Box className="nameBox">
-                    {translate(data.name)}
+                    <Typography component="span">{translate(data.name)}</Typography>
                     <br />
                     CBD
                   </Box>

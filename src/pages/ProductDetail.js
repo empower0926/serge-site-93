@@ -36,7 +36,7 @@ export default function ProductDetail() {
           </m.div>
           <Stack direction="column" justifyContent="center" sx={{ mx: 'auto', width: '600px', maxWidth: '100%' }}>
             <m.div variants={varFade().inRight}>
-              <Typography variant="h4" component="h4" paragraph sx={{ whiteSpace: 'pre-line' }}>
+              <Typography variant="h4" component="h4" paragraph sx={{ whiteSpace: 'pre-line', textTransform: 'uppercase' }}>
                 {translate(data.title)}
               </Typography>
             </m.div>
