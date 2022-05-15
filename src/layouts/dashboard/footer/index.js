@@ -22,6 +22,7 @@ const LinkStyle = styled(Link)({
   },
   color: 'white',
   fontSize: '16px',
+  textTransform: 'uppercase',
   transition: 'all ease 400ms',
 });
 export default function Footer() {
