@@ -49,8 +49,8 @@ export default function Footer() {
         </Stack>
       </Stack>
       <Divider sx={{ my: '24px' }} />
-      <Stack direction={{ xs: 'column', md: 'row' }} justifyContent="space-between">
-        <Box />
+      <Stack mx={3} direction={{ xs: 'column', lg: 'row' }} justifyContent="space-between">
+        <Box sx={{ width: '114.5px' }} />
         <Box sx={{ textAlign: 'center' }}>
           <Typography variant="body1" component="span">
             {translate('FOOTER_TEXT1')}
@@ -58,7 +58,7 @@ export default function Footer() {
             {translate('FOOTER_TEXT2')}
           </Typography>
         </Box>
-        <Stack direction="row" alignItems="center" mr={3} justifyContent="center">
+        <Stack direction="row" alignItems="center" justifyContent="center">
           <Typography variant="body1" component="span">
             Follow us:
           </Typography>
