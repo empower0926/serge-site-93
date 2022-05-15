@@ -163,8 +163,7 @@ const es = {
   APPLE_GUMMIES: `gomitas de manzana`,
   APPLE_GUMMIES_DESC: `¡Aprovecha estos dulces picantes a base de manzana para descubrir el
   cáñamo de una manera divertida!`,
-  Apple_kiwi_drink: `bebida de kiwi
-  manzana¡`,
+  Apple_kiwi_drink: `BEBIDA DE KIWI MANZANA`,
   Apple_kiwi_drink_DESC: `Esta bebida gaseosa sin azúcar traerá una ola de frescura y
   comodidad a tu día! Elige tu fragancia entre toda una paleta afrutada.`,
   Grape_blackberry_raspberry_drink: `Bebida de uva, mora, frambuesa`,

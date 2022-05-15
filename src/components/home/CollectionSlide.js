@@ -66,7 +66,7 @@ const SliderStyle = styled(Slider)({
     transition: 'opacity ease 300ms',
   },
   '& .nameBox>span': {
-    fontSize: '12px',
+    fontSize: '14px',
   },
   // '& .nameBox::first-letter': {
   //   textTransform: 'uppercase',

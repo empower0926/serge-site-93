@@ -30,7 +30,7 @@ const en = {
   Analisis_report: 'Analisis Report',
   Amnesia_title: 'Trim (Indoor) Amnesia',
   Cannatonic_title:'Trim (Greendoor +) Cannatonic',
-  Hemp_Amnesia:'Hemp flower (Bud classic Indoor)Amnesia',
+  Hemp_Amnesia:'Amnesia (Bud Classic Indoor)',
   Caramelo_title:'Caramelo',
   // body
   ANTI_AGING_CREAM: `Anti-aging cream`,

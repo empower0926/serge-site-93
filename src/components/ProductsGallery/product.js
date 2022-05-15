@@ -43,6 +43,9 @@ const Boxstyle = styled(Box)({
     textTransform: 'uppercase',
     transition: 'opacity ease 300ms',
   },
+  '& .nameBox>span': {
+    fontSize: '14px',
+  },
 });
 const StackStyle = styled(Stack)({
   position: 'absolute',
@@ -107,7 +110,7 @@ export default function Product(props) {
           </ButtonStyle>
         </StackStyle>
         <Box className="nameBox">
-          {translate(name)}
+          <Typography component="span">{translate(name)}</Typography>
           <br />
           CBD
         </Box>
