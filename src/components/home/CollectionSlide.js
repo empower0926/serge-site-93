@@ -6,7 +6,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { styled } from '@mui/material/styles';
 import PropTypes from 'prop-types';
 import useLocales from '../../hooks/useLocales';
-import { MotionContainer, varFade } from '../animate';
+import { MotionViewport, varFade } from '../animate';
 
 // const isMobile = useMediaQuery('(max-width: 576px)');
 
@@ -25,11 +25,18 @@ const SliderStyle = styled(Slider)({
     transition: 'all ease 300ms',
   },
   '& .slick-next, & .slick-prev': {
+    opacity: '0',
     zIndex: '4',
+    transition: 'opacity ease 300ms',
+  },
+  '&:hover': {
+    '& .slick-next, & .slick-prev': {
+      opacity: '1',
+    },
   },
   '& .slick-next:before, & .slick-prev:before': {
     fontSize: '36px',
-    color: '#000'
+    color: '#000',
   },
   '& .slick-next': {
     right: '40px',
@@ -113,7 +120,7 @@ export default function CollectionSlide(props) {
   const settings = {
     infinite: true,
     speed: 1000,
-    // autoplay: true,
+    autoplay: true,
     slidesToShow: isMobile ? 1 : isTablet ? 2 : isLaptop ? 3 : 4,
     slidesToScroll: isMobile ? 1 : isTablet ? 2 : isLaptop ? 3 : 4,
   };
@@ -122,9 +129,9 @@ export default function CollectionSlide(props) {
   const dash = '/';
   return (
     <Box sx={{ background: bgColor, py: '80px', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-      <MotionContainer>
-        <Box>
-          <m.div variants={varFade().inUp}>
+      <MotionViewport>
+        <m.div variants={varFade().inUp}>
+          <Box>
             <Typography
               component="h2"
               variant="h2"
@@ -134,36 +141,40 @@ export default function CollectionSlide(props) {
             >
               {translate(title)}
             </Typography>
-          </m.div>
-        </Box>
+          </Box>
+        </m.div>
+      </MotionViewport>
+      <MotionViewport>
         <SliderStyle {...settings} sx={{ maxWidth: '1200px', mx: 'auto' }}>
           {data.map((data, index) => (
-            <Box key={index} sx={{ px: '8px' }}>
-              <Box sx={{ background: '#E9E8E4', position: 'relative' }}>
-                <Img src={data.path} alt="img1" />
-                <QuickBoxStyle>
-                  <ButtonStyle variant="outlined" href={`${text}${props.title}${dash}${index}`}>
-                    {translate('QUICK_VIEW')}
-                  </ButtonStyle>
-                </QuickBoxStyle>
-                <StackStyle direction="row">
-                  <ButtonStyle variant="outlined" href="https://backoffice.ollorun.com/login/client">
-                    {translate('CUSTOMER')}
-                  </ButtonStyle>
-                  <ButtonStyle variant="outlined" href="https://backoffice.ollorun.com/login/client">
-                    {translate('ADVISOR_DST')}
-                  </ButtonStyle>
-                </StackStyle>
-                <Box className="nameBox">
-                  {translate(data.name)}
-                  <br />
-                  CBD
+            <m.div key={index} variants={varFade().inUp}>
+              <Box sx={{ px: '8px' }}>
+                <Box sx={{ background: '#E9E8E4', position: 'relative' }}>
+                  <Img src={data.path} alt="img1" />
+                  <QuickBoxStyle>
+                    <ButtonStyle variant="outlined" href={`${text}${props.title}${dash}${index}`}>
+                      {translate('QUICK_VIEW')}
+                    </ButtonStyle>
+                  </QuickBoxStyle>
+                  <StackStyle direction="row">
+                    <ButtonStyle variant="outlined" href="https://backoffice.ollorun.com/login/client">
+                      {translate('CUSTOMER')}
+                    </ButtonStyle>
+                    <ButtonStyle variant="outlined" href="https://backoffice.ollorun.com/login/client">
+                      {translate('ADVISOR_DST')}
+                    </ButtonStyle>
+                  </StackStyle>
+                  <Box className="nameBox">
+                    {translate(data.name)}
+                    <br />
+                    CBD
+                  </Box>
                 </Box>
               </Box>
-            </Box>
+            </m.div>
           ))}
         </SliderStyle>
-      </MotionContainer>
+      </MotionViewport>
     </Box>
   );
 }

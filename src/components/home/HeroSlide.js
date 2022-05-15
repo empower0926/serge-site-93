@@ -53,7 +53,14 @@ const SliderStyle = styled(Slider)({
     color: '#000',
   },
   '& .slick-next, & .slick-prev': {
+    opacity: '0',
     zIndex: '4',
+    transition: 'opacity ease 300ms',
+  },
+  '&:hover': {
+    button: {
+      opacity: '1',
+    },
   },
   '& .slick-next': {
     right: '36px',
