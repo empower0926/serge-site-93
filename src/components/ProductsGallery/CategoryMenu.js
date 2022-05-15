@@ -80,7 +80,7 @@ export default function CategoryMenu(props) {
   };
   useEffect(() => {
     if (name) {
-      setMenuBtnText(`all ${name} collection`);
+      setMenuBtnText(`${name} collection`);
       if (name === 'body') handleChange('BODY_COLLECTION');
       else if (name === 'food') handleChange('FOOD_COLLECTION');
       else if (name === 'flower') handleChange('FLOWER_COLLECTION');
