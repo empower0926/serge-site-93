@@ -42,34 +42,6 @@ const HomeConfig = [
         path: '/assets/images/FLOWER_COLLECTION/1.png',
       },
       {
-        name: 'Hemp_Amnesia',
-        path: '/assets/images/FLOWER_COLLECTION/2.png',
-      },
-      {
-        name: 'Caramélo',
-        path: '/assets/images/FLOWER_COLLECTION/3.png',
-      },
-      {
-        name: 'Gold Rock',
-        path: '/assets/images/FLOWER_COLLECTION/4.png',
-      },
-      {
-        name: 'Ice Rock',
-        path: '/assets/images/FLOWER_COLLECTION/5.png',
-      },
-      {
-        name: 'Jack Herer',
-        path: '/assets/images/FLOWER_COLLECTION/6.png',
-      },
-      {
-        name: 'Le jaune',
-        path: '/assets/images/FLOWER_COLLECTION/7.png',
-      },
-      {
-        name: 'Moon Rock',
-        path: '/assets/images/FLOWER_COLLECTION/8.png',
-      },
-      {
         name: 'OG Gelato',
         path: '/assets/images/FLOWER_COLLECTION/9.png',
       },
@@ -82,12 +54,42 @@ const HomeConfig = [
         path: '/assets/images/FLOWER_COLLECTION/11.png',
       },
       {
+        name: 'Hemp_Amnesia',
+        path: '/assets/images/FLOWER_COLLECTION/2.png',
+      },
+
+      {
+        name: 'Jack Herer',
+        path: '/assets/images/FLOWER_COLLECTION/6.png',
+      },
+      {
+        name: 'Le jaune',
+        path: '/assets/images/FLOWER_COLLECTION/7.png',
+      },
+      {
         name: 'Suprème',
         path: '/assets/images/FLOWER_COLLECTION/12.png',
       },
       {
         name: 'Triple O',
         path: '/assets/images/FLOWER_COLLECTION/13.png',
+      },
+      {
+        name: 'Caramélo',
+        path: '/assets/images/FLOWER_COLLECTION/3.png',
+      },
+
+      {
+        name: 'Gold Rock',
+        path: '/assets/images/FLOWER_COLLECTION/4.png',
+      },
+      {
+        name: 'Ice Rock',
+        path: '/assets/images/FLOWER_COLLECTION/5.png',
+      },
+      {
+        name: 'Moon Rock',
+        path: '/assets/images/FLOWER_COLLECTION/8.png',
       },
       {
         name: 'Amnesia_title',
