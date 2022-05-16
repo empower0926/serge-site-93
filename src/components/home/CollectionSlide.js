@@ -25,6 +25,7 @@ const SliderStyle = styled(Slider)({
     transition: 'all ease 300ms',
   },
   '& .slick-next, & .slick-prev': {
+    height:"36px",
     opacity: '0',
     zIndex: '4',
     transition: 'opacity ease 300ms',

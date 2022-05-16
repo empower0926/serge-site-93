@@ -25,8 +25,8 @@ export default function About() {
     },
   ];
   return (
-    <MotionViewport>
-      <Container sx={{ maxWidth: '1200px', mx: 'auto', py: 6 }}>
+    <Container sx={{ maxWidth: '1200px', mx: 'auto', py: 6 }}>
+      <MotionViewport>
         <m.div variants={varFlip().inX}>
           <Box
             component="img"
@@ -34,33 +34,40 @@ export default function About() {
             sx={{ ml: 'auto', mb: 6, width: { xs: '140px', sm: '200px' } }}
           />
         </m.div>
+      </MotionViewport>
+      <MotionViewport>
         <Stack>
           <Box mb={3}>
             <m.div variants={varFade().inDown}>
-              <Box component="img" src="/assets/images/other/bglogo.jpg" sx={{width:'100%'}} />
+              <Box component="img" src="/assets/images/other/bglogo.jpg" sx={{ width: '100%' }} />
             </m.div>
           </Box>
           <Box>
             <m.div variants={varFade().inRight}>
-              <Typography variant="body1" component="p" textAlign="justify" dangerouslySetInnerHTML={{ __html: translate('ABOUT_TEXT') }} />
+              <Typography
+                variant="body1"
+                component="p"
+                textAlign="justify"
+                dangerouslySetInnerHTML={{ __html: translate('ABOUT_TEXT') }}
+              />
             </m.div>
           </Box>
         </Stack>
+      </MotionViewport>
+      <MotionViewport>
         <Box sx={{ mt: 5 }}>
           <m.div variants={varFade().inUp}>
             <Typography variant="h3" component="h3" textAlign="center">
               {translate('OUR_OFFERS')}
             </Typography>
           </m.div>
-          <MotionViewport>
-            <Grid container spacing={2} sx={{ mt: 2 }}>
-              {data.map((e, index) => (
-                <BotImgCard key={index} title={e.title} path={e.path} />
-              ))}
-            </Grid>
-          </MotionViewport>
+          <Grid container spacing={2} sx={{ mt: 2 }}>
+            {data.map((e, index) => (
+              <BotImgCard key={index} title={e.title} path={e.path} />
+            ))}
+          </Grid>
         </Box>
-      </Container>
-    </MotionViewport>
+      </MotionViewport>
+    </Container>
   );
 }

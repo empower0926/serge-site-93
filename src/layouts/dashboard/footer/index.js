@@ -66,6 +66,7 @@ export default function Footer() {
           <IconButtonAnimate
             sx={{ mr: 1, color: '#fff', fontSize: '20px' }}
             href="https://instagram.com/ollorun.care?r=nametag"
+            target="_blank"
           >
             <Iconify icon="ph:instagram-logo-light" />
           </IconButtonAnimate>
