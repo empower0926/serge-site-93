@@ -93,7 +93,7 @@ export default function DashboardHeader({ onOpenSidebar, isCollapse = false, ver
         <Stack direction="row" alignItems="center" spacing={{ xs: 0.5, sm: 1.5 }}>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {topBarContent.map((data) => (
-              <LinkStyle key={data.name} href={data.path}>
+              <LinkStyle key={data.name} href={data.path} target="_blank">
                 {translate(data.name)}
               </LinkStyle>
             ))}
