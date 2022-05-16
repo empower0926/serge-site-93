@@ -318,7 +318,7 @@ const en = {
   3. Crumble your hemp flowers, resin or rock before putting them in a tea strainer and
   then in boiling water.<br /><br />
   4. Leave to infuse for at least 15 minutes, and then just enjoy!`,
-  headertitle2: `Cook your hemp.`,
+  headertitle2: `Cook your hemp`,
   title2: `Did you know that you could cook your hemp?`,
   content2: `Infusing hemp is quite common. Cooking with hemp is yet another door open to a lot of
   curiosities and experiences. Today, we decided to share with you everything about cooking
@@ -410,7 +410,7 @@ const en = {
   environment because no electricity is needed for artificial lamps. However, indoor
   cultivation allows for more precise management of the plant and therefore a higher
   quality. We leave it to you to select the product that suits you best!`,
-  headertitle4: `HEMP OIL.`,
+  headertitle4: `HEMP OIL`,
   title4: `Choose my hemp oil.`,
   content4: `On the hemp market, there are a lot of different oils. It is sometimes difficult to know which oil is best for
   you and which is of good quality. We would like to introduce you to the 3 main pillars for optimal hemp
