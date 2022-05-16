@@ -298,8 +298,8 @@ sociétaire et le marketing relationnel.`,
   Trim_CONTENT: `Il s’agit d’un mélange de petites fleurs et de fragments de chanvre.`,
   // mag
   READ_MORE: 'READ MORE',
-  headertitle1: `À propos de l'infusion de CBD`,
-  title1: `Tout ce que vous devez savoir sur l’infusion au CBD`,
+  headertitle1: `L'INFUSION DE CBD`,
+  title1: `Tout ce que vous devez savoir sur l’infusion au CBD.`,
   content1: `L’infusion du chanvre est le mode d’utilisation de le plus sain lorsque vous utilisez
   directement la fleur de chanvre. Contrairement aux idées qui circulent, vous pouvez
   acheter des fleurs de chanvre sans qu’elles ne soient vouées à être fumées. Cela est
@@ -339,7 +339,7 @@ sociétaire et le marketing relationnel.`,
   passoire à thé puis dans l’eau bouillante.<br /><br />
   4. Laissez infuser minimum 15 minutes, et vous n’avez plus qu’à déguster !`,
   headertitle2: `Cuisinez votre chanvre`,
-  title2: `Savez-vous que vous pouviez cuisiner votre chanvre ?`,
+  title2: `Savez-vous que vous pouviez cuisiner votre chanvre?`,
   content2: `Infuser le chanvre, c’est plutôt très répandu. Cuisiner le chanvre, c’est encore une autre
   porte ouverte à énormément de curiosités et d’expériences. Aujourd’hui, nous avons
   décidé de tout vous partager autour de la cuisine avec le chanvre !<br /><br />
@@ -398,8 +398,8 @@ sociétaire et le marketing relationnel.`,
   pour expérimenter et tester. Soyez libre de faire vos choix et de goûter le chanvre de
   différentes manières. Partagez vos bons petits plats sur les réseaux sociaux !
   #Greensensitive`,
-  headertitle3: `Intérieur et serre`,
-  title3: `Indoor, Greenhouse, quelle différence ?`,
+  headertitle3: `INDOOR ET GREENHOUSE`,
+  title3: `Indoor, Greenhouse, quelle différence?`,
   content3: `Peut-être l’avez-vous déjà remarqué, la Flower Collection de Greensensitive propose pour
   chaque parfum la mention « Indoor » ou « Greenhouse ». Ce sont des éléments importants
   qui caractérisent le mode de production du chanvre avant d’être ensuite proposé sous
@@ -442,8 +442,8 @@ sociétaire et le marketing relationnel.`,
   artificielles. Cependant, la culture « Indoor » permet une gestion plus précise de la culture
   et donc une qualité supérieure. Nous vous laissons donc le plaisir de sélectionner le
   produit qui vous convient le mieux !`,
-  headertitle4: `Choisir mon huile de chanvre`,
-  title4: `Choisir mon huile de chanvre`,
+  headertitle4: `L'HUILE DE CHANVRE`,
+  title4: `Choisir mon huile de chanvre.`,
   content4: `Sur le marché du chanvre, il existe un nombre conséquent d’huiles différentes. Il devient parfois difficile
   de savoir quelle huile nous correspond le mieux et laquelle est de bonne qualité. Nous vous proposons de
   découvrir les 3 piliers majeurs pour une qualité optimale de chanvre ainsi que plusieurs astuces pour faire

@@ -283,7 +283,7 @@ const en = {
   Trim_CONTENT: `It is a mixture of small flowers and fragments of hemp.`,
   // mag
   READ_MORE: 'READ MORE',
-  headertitle1: `About CBD infusion.`,
+  headertitle1: `CBD INFUSION`,
   title1: `All you need to know about CBD infusion.`,
   content1: `Infusing hemp is the healthiest way to use hemp flowers directly. Contrary to popular
   belief, you can buy hemp flowers without smoking them. In fact, this is prohibited by law.
@@ -369,7 +369,7 @@ const en = {
   Finally, when cooking with hemp, it is important to leave the details of the kitchen to
   experiment and test. Be free to make your own choices and taste hemp in different ways.
   Share your good food on social networks! #Greensensitive`,
-  headertitle3: `Indoor and Greenhouse.`,
+  headertitle3: `INDOOR AND GREENHOUSE`,
   title3: `Indoor, Greenhouse, what's the difference?`,
   content3: `You may have already noticed that the Flower Collection from Greensensitive offers the
   words "Indoor" or "Greenhouse" for each flavour. These are important elements that
@@ -410,7 +410,7 @@ const en = {
   environment because no electricity is needed for artificial lamps. However, indoor
   cultivation allows for more precise management of the plant and therefore a higher
   quality. We leave it to you to select the product that suits you best!`,
-  headertitle4: `Choose my hemp oil.`,
+  headertitle4: `HEMP OIL.`,
   title4: `Choose my hemp oil.`,
   content4: `On the hemp market, there are a lot of different oils. It is sometimes difficult to know which oil is best for
   you and which is of good quality. We would like to introduce you to the 3 main pillars for optimal hemp

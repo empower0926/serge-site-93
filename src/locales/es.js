@@ -300,8 +300,8 @@ todos los productos comercializados.`,
   Trim_CONTENT: `Se trata de una mezcla de pequeñas flores y fragmentos de cáñamo.`,
   // mag
   READ_MORE: 'READ MORE',
-  headertitle1: `Sobre la infusión de CBD`,
-  title1: `Todo lo que necesitas saber sobre la infusión de CBD`,
+  headertitle1: `INFUSIÓN DE CBD`,
+  title1: `Todo lo que necesitas saber sobre la infusión de CBD.`,
   content1: `La infusión de cáñamo es la forma más saludable de utilizar las flores de cáñamo directamente. Contrariamente a lo popular
 creencia, puedes comprar flores de cáñamo sin fumarlas. De hecho, esto está prohibido por la ley.
 Así que hoy te proponemos descubrir la flor de cáñamo, pero también la resina y el polen en
@@ -386,7 +386,7 @@ prefiere consumirlo en infusión (flor, resina y roca) o en aceite (en nuestra C
 Finalmente, al cocinar con cáñamo, es importante dejar los detalles de la cocina a
 experimentar y probar. Sea libre de tomar sus propias decisiones y pruebe el cáñamo de diferentes maneras.
 ¡Comparte tu buena comida en las redes sociales! #Greensensitive`,
-  headertitle3: `Interior e Invernadero`,
+  headertitle3: `INTERIOR E INVERNADERO`,
   title3: `Interior, Invernadero, ¿cuál es la diferencia?`,
   content3: `Es posible que ya haya notado que la colección de flores de Greensensitive ofrece la
 palabras "Interior" o "Invernadero" para cada sabor. Estos son elementos importantes que
@@ -427,8 +427,8 @@ En cuanto a la planta "Invernadero", tiene la ventaja de ser más respetuosa con
 ambiente porque no se necesita electricidad para las lámparas artificiales. Sin embargo, de interior
 El cultivo permite un manejo más preciso de la planta y por lo tanto una mayor
 calidad. ¡Dejamos que usted seleccione el producto que más le convenga!`,
-  headertitle4: `Elige mi aceite de cáñamo`,
-  title4: `Elegir mi aceite de cáñamo`,
+  headertitle4: `ACEITE DE CÁÑAMO`,
+  title4: `Elegir mi aceite de cáñamo.`,
   content4: `En el mercado del cáñamo, hay muchos aceites diferentes. A veces es difícil saber qué aceite es mejor para
 usted y que es de buena calidad. Nos gustaría presentarle los 3 pilares principales para un cáñamo óptimo
 calidad y le daremos algunos consejos sobre cómo hacer su elección.<br /><br />
