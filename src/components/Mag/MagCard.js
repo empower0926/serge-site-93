@@ -25,7 +25,7 @@ export default function MagCard(props) {
         sx={{ border: '1px solid #BBB0B0', borderRadius: '8px' }}
       >
         <Stack direction="row" justifyContent="space-between" alignItems="center" px={1}>
-          <Typography variant="subtitle1" textTransform="uppercase" fontSize="14px">{translate(headertitle)}</Typography>
+          <Typography variant="subtitle1" textTransform="uppercase">{translate(headertitle)}</Typography>
           <Box component="img" src="/logo/logo_single.png" sx={{ width: '30px', height: '30px' }} />
         </Stack>
         <Box component="img" src={imagepath} sx={{ width: '100%', height: '199px', objectFit: 'cover' }} />
