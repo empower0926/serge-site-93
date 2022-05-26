@@ -8,6 +8,7 @@
 const fr = {
   CUSTOMER: 'CLIENT',
   ADVISOR_DST: 'CONSEILLER/DST',
+  JOIN:'Rejoindre',
   HOME: `HOME`,
   THE_CBD_MAG: 'THE CBD MAG',
   VIDEOS: 'VIDEOS',

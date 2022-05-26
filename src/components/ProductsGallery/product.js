@@ -105,7 +105,7 @@ export default function Product(props) {
           <ButtonStyle variant="outlined" href="https://backoffice.ollorun.com/login/client">
             {translate('CUSTOMER')}
           </ButtonStyle>
-          <ButtonStyle variant="outlined" href="https://backoffice.ollorun.com/login/client">
+          <ButtonStyle variant="outlined" href="https://backoffice.ollorun.com/" target="_blank">
             {translate('ADVISOR_DST')}
           </ButtonStyle>
         </StackStyle>

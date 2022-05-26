@@ -93,11 +93,14 @@ export default function DashboardHeader({ onOpenSidebar, isCollapse = false, ver
         <Stack direction="row" alignItems="center" spacing={{ xs: 0.5, sm: 1.5 }}>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {topBarContent.map((data) => (
-              <LinkStyle key={data.name} href={data.path} target="_blank">
+              <LinkStyle key={data.name} href={data.path} target="_blank" sx={{textTransform:"uppercase"}}>
                 {translate(data.name)}
               </LinkStyle>
             ))}
           </Box>
+          <LinkStyle  href="mailto:Support@ollorun.com" target="_blank" sx={{textTransform:"uppercase"}}>
+                {translate("JOIN")}
+            </LinkStyle>
           <LanguagePopover />
         </Stack>
       </Toolbar>

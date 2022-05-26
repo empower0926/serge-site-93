@@ -8,6 +8,7 @@
 const es = {
   CUSTOMER: 'CLIENTE',
   ADVISOR_DST: 'ASESOR/DST',
+  JOIN: 'Inscríbase',
   HOME: `Inicio`,
   COLLECTIONS: 'Colecciones',
   THE_CBD_MAG: 'CBD Mag',

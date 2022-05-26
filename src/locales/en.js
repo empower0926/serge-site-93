@@ -8,6 +8,7 @@
 const en = {
   CUSTOMER: 'CUSTOMER',
   ADVISOR_DST: 'ADVISOR/DST',
+  JOIN: 'JOIN',
   HOME: `HOME`,
   THE_CBD_MAG: 'THE CBD MAG',
   VIDEO: 'VIDEO',
