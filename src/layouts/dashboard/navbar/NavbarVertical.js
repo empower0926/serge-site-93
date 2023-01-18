@@ -76,7 +76,7 @@ export default function NavbarVertical({ isOpenSidebar, onCloseSidebar }) {
       <Divider />
       <Stack direction='row' spacing={3} justifyContent="center" sx={{mt: '24px'}}>
         <LinkStyle href="https://backoffice.ollorun.com/login/client">{translate('CUSTOMER')}</LinkStyle>
-        <LinkStyle href="https://backoffice.ollorun.com/" target="_blank">{translate('ADVISOR_DST')}</LinkStyle>
+        {/* <LinkStyle href="https://backoffice.ollorun.com/" target="_blank">{translate('ADVISOR_DST')}</LinkStyle> */}
       </Stack>
     </Scrollbar>
   );

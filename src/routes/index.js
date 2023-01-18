@@ -25,7 +25,8 @@ export default function Router() {
       path: '/',
       element: <DashboardLayout />,
       children: [
-        { element: <Navigate to="/home" replace />, index: true },
+        // { element: <Navigate to="/home" replace />, index: true },
+        { element: <HomePage />, index: true },
         { path: 'home', element: <HomePage /> },
         { path: 'productdetail/:name/:id', element: <ProductDetail /> },
         { path: 'mag', element: <MagPage /> },

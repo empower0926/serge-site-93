@@ -58,10 +58,10 @@ export default function DashboardHeader({ onOpenSidebar, isCollapse = false, ver
       path: 'https://backoffice.ollorun.com/login/client',
       name: 'CUSTOMER',
     },
-    {
-      path: 'https://backoffice.ollorun.com/',
-      name: 'ADVISOR_DST',
-    },
+    // {
+    //   path: 'https://backoffice.ollorun.com/',
+    //   name: 'ADVISOR_DST',
+    // },
   ];
   return (
     <RootStyle isCollapse={isCollapse} isOffset={isOffset} verticalLayout={verticalLayout}>
